@@ -1,0 +1,60 @@
+Options -Indexes
+DirectoryIndex index.html
+ErrorDocument 404 /404.html
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+Redirect 301 /about-us /about
+Redirect 301 /about-us-best-manufacturer-in-india /about
+Redirect 301 /contact-us /contact
+Redirect 301 /products/temperature-sensors /product-categories/temperature-sensors
+Redirect 301 /products/temperature-control-instruments /product-categories/temperature-instruments
+Redirect 301 /products/industrial-heaters /product-categories/industrial-heaters
+Redirect 301 /products/accessories /products
+Redirect 301 /temperature-sensors-for-steel-plants /applications/temperature-sensors-for-steel-plants
+Redirect 301 /thermocouple-for-blast-furnace /applications/thermocouple-for-blast-furnace
+Redirect 301 /injection-molding-machine-thermocouple /applications/injection-molding-machine-thermocouple
+Redirect 301 /boiler-temperature-measurement /applications/boiler-temperature-measurement
+Redirect 301 /thermocouple-for-engine-testing /applications/thermocouple-for-engine-testing
+Redirect 301 /thermocouple-for-forging-industry /applications/thermocouple-for-forging-industry
+Redirect 301 /thermocouple-for-gas-carburizing-furnace /applications/thermocouple-for-gas-carburizing-furnace
+Redirect 301 /thermocouple-for-rotary-hearth-furnace /applications/thermocouple-for-rotary-hearth-furnace
+Redirect 301 /thermocouple-for-heat-treatment-furnace /applications/thermocouple-for-heat-treatment-furnace
+Redirect 301 /temperature-sensors-for-foundries /applications/temperature-sensors-for-foundries
+Redirect 301 /thermocouples-for-cement-kilns /applications/thermocouples-for-cement-kilns
+Redirect 301 /temperature-sensors-for-power-plants /applications/temperature-sensors-for-power-plants
+Redirect 301 /rtd-sensors-for-motors-generators-bearings /applications/rtd-sensors-for-motors-generators-bearings
+Redirect 301 /temperature-sensors-for-chemical-process-plants /applications/temperature-sensors-for-chemical-process-plants
+Redirect 301 /sanitary-temperature-sensors-food-pharma /applications/sanitary-temperature-sensors-food-pharma
+Redirect 301 /thermocouples-for-aluminium-melting-furnaces /applications/thermocouples-for-aluminium-melting-furnaces
+Redirect 301 /thermocouples-for-glass-furnaces /applications/thermocouples-for-glass-furnaces
+Redirect 301 /temperature-sensors-for-plastic-extrusion /applications/temperature-sensors-for-plastic-extrusion
+Redirect 301 /temperature-sensors-for-industrial-ovens-dryers /applications/temperature-sensors-for-industrial-ovens-dryers
+Redirect 301 /temperature-sensors-for-oil-gas /applications/temperature-sensors-for-oil-gas
+Redirect 301 /temperature-sensors-for-hvac-refrigeration /applications/temperature-sensors-for-hvac-refrigeration
+</IfModule>
+
+<FilesMatch "^(enquiry-config\.php|README\.md)$">
+  Require all denied
+</FilesMatch>
+
+<IfModule mod_headers.c>
+Header always set X-Content-Type-Options "nosniff"
+Header always set Referrer-Policy "strict-origin-when-cross-origin"
+Header always set X-Frame-Options "SAMEORIGIN"
+Header always set Permissions-Policy "camera=(), microphone=(), geolocation=()"
+</IfModule>
+
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType text/css "access plus 1 month"
+ExpiresByType application/javascript "access plus 1 month"
+ExpiresByType image/png "access plus 1 year"
+ExpiresByType image/jpeg "access plus 1 year"
+ExpiresByType image/webp "access plus 1 year"
+ExpiresByType image/svg+xml "access plus 1 year"
+ExpiresByType application/pdf "access plus 1 month"
+</IfModule>

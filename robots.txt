@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /enquiry.php
+Sitemap: https://yogelectroprocess.in/sitemap.xml

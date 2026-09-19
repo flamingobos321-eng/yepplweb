@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#334155"/>
+  <circle cx="1060" cy="80" r="300" fill="#f97316" opacity=".18"/>
+  <g transform="translate(90 90)">
+    <rect width="78" height="78" rx="12" fill="#f97316"/>
+    <path d="M21 55V24h9v22h8V30h9v16h9V20h9v35H21Z" fill="#fff"/>
+    <text x="105" y="48" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700">YOG ELECTRO PROCESS</text>
+    <text x="106" y="76" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="18" letter-spacing="5">PROCESS PVT LTD</text>
+  </g>
+  <text x="90" y="330" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="700">Precision temperature</text>
+  <text x="90" y="410" fill="#f97316" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="700">measurement solutions</text>
+  <text x="90" y="490" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="28">Thermocouples · RTDs · Thermowells · Calibration</text>
+  <text x="90" y="550" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="21">Engineering industrial temperature solutions since 1986</text>
+</svg>
