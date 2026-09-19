@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en-IN">
+<html lang="en-IN" class="light">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,68 +20,494 @@
   <meta name="twitter:image" content="https://yogelectroprocess.in/social-preview.svg">
   <link rel="icon" href="/favicon.svg">
   <link rel="stylesheet" href="/assets/cpanel/styles.css">
+  <link rel="stylesheet" href="/assets/cpanel/master.css">
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://yogelectroprocess.in/#organization","name":"Yog Electro Process Pvt. Ltd.","url":"https://yogelectroprocess.in","logo":"https://yogelectroprocess.in/assets/media/logo.png","foundingDate":"1986","email":"info@yogelectroprocess.com","telephone":"+91-9371015550","address":{"@type":"PostalAddress","streetAddress":"G-63/8, Phase III, MIDC-Chakan","addressLocality":"Pune","postalCode":"410501","addressRegion":"Maharashtra","addressCountry":"IN"}},{"@type":"WebSite","@id":"https://yogelectroprocess.in/#website","url":"https://yogelectroprocess.in","name":"Yog Electro Process","publisher":{"@id":"https://yogelectroprocess.in/#organization"},"inLanguage":"en-IN"}]}</script>
 </head>
-<body>
-<a class="skip-link" href="#main">Skip to content</a>
-<header class="site-header">
-  <div class="container header-row">
-    <a class="brand" href="/" aria-label="Yog Electro Process home"><img src="/assets/media/logo.png" alt="Yog Electro Process Pvt. Ltd."></a>
-    <button class="nav-toggle" data-nav-toggle aria-expanded="false" aria-label="Open navigation">☰</button>
-    <nav class="site-nav" data-nav aria-label="Main navigation">
-      <a href="/" aria-current="page">Home</a>
-      <a href="/products">Products</a>
-      <a href="/applications">Applications <span aria-hidden="true">⌄</span></a>
-      <a href="/about">About Us</a>
-      <a href="/quality">Quality &amp; Lab</a>
-      <a href="/contact">Contact</a>
+<body class="font-sans antialiased bg-background text-foreground min-h-[100dvh] flex flex-col">
+<a class="skip-link sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:p-2 focus:bg-white focus:z-50" href="#main">Skip to content</a>
+<header class="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+  <div class="container mx-auto px-4 h-16 flex items-center justify-between max-w-7xl">
+    <a class="flex items-center gap-2 group" href="/" aria-label="Yog Electro Process home">
+      <img src="/assets/media/logo.png" alt="Yog Electro Process Pvt. Ltd." class="h-11 w-[205px] object-contain object-left transition-transform group-hover:scale-[1.02] md:w-[230px]">
+    </a>
+    
+    <nav class="hidden md:flex items-center gap-8" aria-label="Main navigation">
+      <a href="/" class="text-sm font-medium transition-colors hover:text-primary relative py-1 text-primary">Home<span class="absolute -bottom-[21px] left-0 right-0 h-[2px] bg-primary rounded-t-full"></span></a>
+      <a href="/products" class="text-sm font-medium transition-colors hover:text-primary relative py-1 text-foreground/80">Products</a>
+      
+      <div class="relative group py-1">
+        <button class="text-sm font-medium transition-colors hover:text-primary flex items-center gap-1 text-foreground/80">Applications <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-[14px] h-[14px]"><path d="m6 9 6 6 6-6"></path></svg></button>
+        
+        <div class="absolute top-full left-0 mt-2 w-72 max-h-[calc(100vh-6rem)] overflow-y-auto bg-background border border-border rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50 flex flex-col">
+          <div class="sticky top-0 border-y border-border/60 bg-muted px-4 py-1.5 text-[10px] font-bold uppercase tracking-widest text-muted-foreground first:border-t-0">Overview</div><a href="/applications" class="block px-4 py-2 text-sm transition-colors hover:bg-accent hover:text-accent-foreground text-foreground/80">View All Applications</a><div class="sticky top-0 border-y border-border/60 bg-muted px-4 py-1.5 text-[10px] font-bold uppercase tracking-widest text-muted-foreground first:border-t-0">Metals &amp; Furnaces</div><a href="/applications/temperature-sensors-for-steel-plants" class="block px-4 py-2 text-sm transition-colors hover:bg-accent hover:text-accent-foreground text-foreground/80">Steel Plants</a><a href="/applications/thermocouple-for-blast-furnace" class="block px-4 py-2 text-sm transition-colors hover:bg-accent hover:text-accent-foreground text-foreground/80">Blast Furnace</a><a href="/applications/thermocouple-for-forging-industry" class="block px-4 py-2 text-sm transition-colors hover:bg-accent hover:text-accent-foreground text-foreground/80">Forging Industry</a><a href="/applications/thermocouple-for-gas-carburizing-furnace" class="block px-4 py-2 text-sm transition-colors hover:bg-accent hover:text-accent-foreground text-foreground/80">Gas Carburizing</a><a href="/applications/thermocouple-for-rotary-hearth-furnace" class="block px-4 py-2 text-sm transition-colors hover:bg-accent hover:text-accent-foreground text-foreground/80">Rotary Hearth</a><a href="/applications/thermocouple-for-heat-treatment-furnace" class="block px-4 py-2 text-sm transition-colors hover:bg-accent hover:text-accent-foreground text-foreground/80">Heat Treatment</a><a href="/applications/temperature-sensors-for-foundries" class="block px-4 py-2 text-sm transition-colors hover:bg-accent hover:text-accent-foreground text-foreground/80">Foundries &amp; Molten Metal</a><a href="/applications/thermocouples-for-cement-kilns" class="block px-4 py-2 text-sm transition-colors hover:bg-accent hover:text-accent-foreground text-foreground/80">Cement Kilns</a><a href="/applications/thermocouples-for-aluminium-melting-furnaces" class="block px-4 py-2 text-sm transition-colors hover:bg-accent hover:text-accent-foreground text-foreground/80">Aluminium Melting</a><a href="/applications/thermocouples-for-glass-furnaces" class="block px-4 py-2 text-sm transition-colors hover:bg-accent hover:text-accent-foreground text-foreground/80">Glass Furnaces</a><div class="sticky top-0 border-y border-border/60 bg-muted px-4 py-1.5 text-[10px] font-bold uppercase tracking-widest text-muted-foreground first:border-t-0">Process &amp; Energy</div><a href="/applications/boiler-temperature-measurement" class="block px-4 py-2 text-sm transition-colors hover:bg-accent hover:text-accent-foreground text-foreground/80">Boiler Temperature</a><a href="/applications/temperature-sensors-for-power-plants" class="block px-4 py-2 text-sm transition-colors hover:bg-accent hover:text-accent-foreground text-foreground/80">Power Plants</a><a href="/applications/temperature-sensors-for-chemical-process-plants" class="block px-4 py-2 text-sm transition-colors hover:bg-accent hover:text-accent-foreground text-foreground/80">Chemical Process Plants</a><a href="/applications/temperature-sensors-for-oil-gas" class="block px-4 py-2 text-sm transition-colors hover:bg-accent hover:text-accent-foreground text-foreground/80">Oil &amp; Gas</a><a href="/applications/temperature-sensors-for-industrial-ovens-dryers" class="block px-4 py-2 text-sm transition-colors hover:bg-accent hover:text-accent-foreground text-foreground/80">Industrial Ovens &amp; Dryers</a><div class="sticky top-0 border-y border-border/60 bg-muted px-4 py-1.5 text-[10px] font-bold uppercase tracking-widest text-muted-foreground first:border-t-0">Machines &amp; Equipment</div><a href="/applications/injection-molding-machine-thermocouple" class="block px-4 py-2 text-sm transition-colors hover:bg-accent hover:text-accent-foreground text-foreground/80">Injection Molding</a><a href="/applications/thermocouple-for-engine-testing" class="block px-4 py-2 text-sm transition-colors hover:bg-accent hover:text-accent-foreground text-foreground/80">Engine Testing</a><a href="/applications/rtd-sensors-for-motors-generators-bearings" class="block px-4 py-2 text-sm transition-colors hover:bg-accent hover:text-accent-foreground text-foreground/80">Motors &amp; Bearings</a><a href="/applications/temperature-sensors-for-plastic-extrusion" class="block px-4 py-2 text-sm transition-colors hover:bg-accent hover:text-accent-foreground text-foreground/80">Plastic Extrusion</a><a href="/applications/temperature-sensors-for-hvac-refrigeration" class="block px-4 py-2 text-sm transition-colors hover:bg-accent hover:text-accent-foreground text-foreground/80">HVAC &amp; Refrigeration</a><a href="/applications/sanitary-temperature-sensors-food-pharma" class="block px-4 py-2 text-sm transition-colors hover:bg-accent hover:text-accent-foreground text-foreground/80">Food &amp; Pharma</a>
+        </div>
+      </div>
+      
+      <a href="/about" class="text-sm font-medium transition-colors hover:text-primary relative py-1 text-foreground/80">About Us</a>
+      <a href="/quality" class="text-sm font-medium transition-colors hover:text-primary relative py-1 text-foreground/80">Quality &amp; Lab</a>
+      <a href="/contact" class="text-sm font-medium transition-colors hover:text-primary relative py-1 text-foreground/80">Contact</a>
+      
+      <a class="ml-4 bg-secondary text-secondary-foreground px-4 py-2 rounded-sm text-sm font-medium hover:bg-secondary/90 transition-colors" href="/contact">Enquire Now</a>
     </nav>
-    <div class="header-actions">
-      <a class="btn btn-secondary" href="/contact">Enquire Now</a>
-    </div>
+    
+    <button class="md:hidden p-2 -mr-2 text-foreground" data-nav-toggle aria-expanded="false" aria-label="Toggle Menu">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 nav-icon-open"><path d="M4 5h16"></path><path d="M4 12h16"></path><path d="M4 19h16"></path></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 nav-icon-close hidden"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg>
+    </button>
+  </div>
+  
+  <div class="md:hidden border-b border-border bg-background absolute top-16 left-0 right-0 shadow-lg hidden h-[calc(100dvh-4rem)] overflow-y-auto" data-nav>
+    <nav class="flex flex-col p-4 gap-2 pb-12">
+      <a href="/" class="px-4 py-3 rounded-md text-sm font-medium transition-colors flex items-center justify-between bg-primary/10 text-primary">Home <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 opacity-50"><path d="m9 18 6-6-6-6"></path></svg></a>
+      <a href="/products" class="px-4 py-3 rounded-md text-sm font-medium transition-colors flex items-center justify-between text-foreground/80 hover:bg-accent">Products <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 opacity-50"><path d="m9 18 6-6-6-6"></path></svg></a>
+      <div class="flex flex-col gap-1">
+        <div class="px-4 py-2 text-sm font-semibold text-foreground/50 uppercase tracking-wider">Applications</div>
+        <div class="flex flex-col pl-2 border-l-2 border-border/50 ml-4 gap-1">
+          <div class="px-4 pb-1 pt-3 text-[10px] font-bold uppercase tracking-widest text-muted-foreground">Overview</div><a href="/applications" class="flex items-center justify-between rounded-md px-4 py-2 text-sm font-medium transition-colors text-foreground/80 hover:bg-accent">View All Applications</a><div class="px-4 pb-1 pt-3 text-[10px] font-bold uppercase tracking-widest text-muted-foreground">Metals &amp; Furnaces</div><a href="/applications/temperature-sensors-for-steel-plants" class="flex items-center justify-between rounded-md px-4 py-2 text-sm font-medium transition-colors text-foreground/80 hover:bg-accent">Steel Plants</a><a href="/applications/thermocouple-for-blast-furnace" class="flex items-center justify-between rounded-md px-4 py-2 text-sm font-medium transition-colors text-foreground/80 hover:bg-accent">Blast Furnace</a><a href="/applications/thermocouple-for-forging-industry" class="flex items-center justify-between rounded-md px-4 py-2 text-sm font-medium transition-colors text-foreground/80 hover:bg-accent">Forging Industry</a><a href="/applications/thermocouple-for-gas-carburizing-furnace" class="flex items-center justify-between rounded-md px-4 py-2 text-sm font-medium transition-colors text-foreground/80 hover:bg-accent">Gas Carburizing</a><a href="/applications/thermocouple-for-rotary-hearth-furnace" class="flex items-center justify-between rounded-md px-4 py-2 text-sm font-medium transition-colors text-foreground/80 hover:bg-accent">Rotary Hearth</a><a href="/applications/thermocouple-for-heat-treatment-furnace" class="flex items-center justify-between rounded-md px-4 py-2 text-sm font-medium transition-colors text-foreground/80 hover:bg-accent">Heat Treatment</a><a href="/applications/temperature-sensors-for-foundries" class="flex items-center justify-between rounded-md px-4 py-2 text-sm font-medium transition-colors text-foreground/80 hover:bg-accent">Foundries &amp; Molten Metal</a><a href="/applications/thermocouples-for-cement-kilns" class="flex items-center justify-between rounded-md px-4 py-2 text-sm font-medium transition-colors text-foreground/80 hover:bg-accent">Cement Kilns</a><a href="/applications/thermocouples-for-aluminium-melting-furnaces" class="flex items-center justify-between rounded-md px-4 py-2 text-sm font-medium transition-colors text-foreground/80 hover:bg-accent">Aluminium Melting</a><a href="/applications/thermocouples-for-glass-furnaces" class="flex items-center justify-between rounded-md px-4 py-2 text-sm font-medium transition-colors text-foreground/80 hover:bg-accent">Glass Furnaces</a><div class="px-4 pb-1 pt-3 text-[10px] font-bold uppercase tracking-widest text-muted-foreground">Process &amp; Energy</div><a href="/applications/boiler-temperature-measurement" class="flex items-center justify-between rounded-md px-4 py-2 text-sm font-medium transition-colors text-foreground/80 hover:bg-accent">Boiler Temperature</a><a href="/applications/temperature-sensors-for-power-plants" class="flex items-center justify-between rounded-md px-4 py-2 text-sm font-medium transition-colors text-foreground/80 hover:bg-accent">Power Plants</a><a href="/applications/temperature-sensors-for-chemical-process-plants" class="flex items-center justify-between rounded-md px-4 py-2 text-sm font-medium transition-colors text-foreground/80 hover:bg-accent">Chemical Process Plants</a><a href="/applications/temperature-sensors-for-oil-gas" class="flex items-center justify-between rounded-md px-4 py-2 text-sm font-medium transition-colors text-foreground/80 hover:bg-accent">Oil &amp; Gas</a><a href="/applications/temperature-sensors-for-industrial-ovens-dryers" class="flex items-center justify-between rounded-md px-4 py-2 text-sm font-medium transition-colors text-foreground/80 hover:bg-accent">Industrial Ovens &amp; Dryers</a><div class="px-4 pb-1 pt-3 text-[10px] font-bold uppercase tracking-widest text-muted-foreground">Machines &amp; Equipment</div><a href="/applications/injection-molding-machine-thermocouple" class="flex items-center justify-between rounded-md px-4 py-2 text-sm font-medium transition-colors text-foreground/80 hover:bg-accent">Injection Molding</a><a href="/applications/thermocouple-for-engine-testing" class="flex items-center justify-between rounded-md px-4 py-2 text-sm font-medium transition-colors text-foreground/80 hover:bg-accent">Engine Testing</a><a href="/applications/rtd-sensors-for-motors-generators-bearings" class="flex items-center justify-between rounded-md px-4 py-2 text-sm font-medium transition-colors text-foreground/80 hover:bg-accent">Motors &amp; Bearings</a><a href="/applications/temperature-sensors-for-plastic-extrusion" class="flex items-center justify-between rounded-md px-4 py-2 text-sm font-medium transition-colors text-foreground/80 hover:bg-accent">Plastic Extrusion</a><a href="/applications/temperature-sensors-for-hvac-refrigeration" class="flex items-center justify-between rounded-md px-4 py-2 text-sm font-medium transition-colors text-foreground/80 hover:bg-accent">HVAC &amp; Refrigeration</a><a href="/applications/sanitary-temperature-sensors-food-pharma" class="flex items-center justify-between rounded-md px-4 py-2 text-sm font-medium transition-colors text-foreground/80 hover:bg-accent">Food &amp; Pharma</a>
+        </div>
+      </div>
+      <a href="/about" class="px-4 py-3 rounded-md text-sm font-medium transition-colors flex items-center justify-between text-foreground/80 hover:bg-accent">About Us <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 opacity-50"><path d="m9 18 6-6-6-6"></path></svg></a>
+      <a href="/quality" class="px-4 py-3 rounded-md text-sm font-medium transition-colors flex items-center justify-between text-foreground/80 hover:bg-accent">Quality &amp; Lab <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 opacity-50"><path d="m9 18 6-6-6-6"></path></svg></a>
+      <a href="/contact" class="px-4 py-3 rounded-md text-sm font-medium transition-colors flex items-center justify-between text-foreground/80 hover:bg-accent">Contact <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 opacity-50"><path d="m9 18 6-6-6-6"></path></svg></a>
+    </nav>
   </div>
 </header>
-<main id="main"><section class="hero master-hero">
-    <div class="hero-visual" aria-hidden="true"><img src="/assets/media/hero-sensor.jpg" alt=""></div>
-    <div class="container hero-content">
-      <div class="hero-copy">
-        <div class="hero-badge"><span></span>Established 1986</div>
-        <h1>Engineered for<br><strong>Extremes.</strong></h1>
-        <p>Leading industrial manufacturer of high-performance Thermocouples, RTDs, and Thermowells. Backed by an in-house ISO/IEC 17025:2017 accredited calibration laboratory.</p>
-        <div class="hero-actions"><a class="btn" href="/products">Explore Products <span aria-hidden="true">→</span></a><a class="btn btn-hero-outline" href="/contact">Request Quote</a></div>
+<main id="main" class="flex-1 flex flex-col">
+  <div class="flex flex-col w-full bg-background font-sans">
+    <section class="relative min-h-[720px] md:min-h-[760px] lg:min-h-[800px] w-full bg-secondary flex items-center overflow-hidden">
+      <div class="pointer-events-none absolute inset-0 z-0 opacity-20 mix-blend-overlay" style="background-image: url('data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E')"></div>
+      <div class="absolute right-0 top-0 w-full md:w-[60%] h-full z-0">
+        <div class="absolute inset-0 bg-gradient-to-r from-secondary via-secondary/80 to-transparent z-10 hidden md:block"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-secondary via-secondary/80 to-transparent z-10 md:hidden"></div>
+        <img src="/assets/media/hero-sensor.jpg" alt="Precision Industrial Temperature Sensor" class="w-full h-full object-cover object-center opacity-40 md:opacity-100">
+        <div class="absolute top-1/4 right-1/4 z-20 w-16 h-16 border border-primary/30 rounded-full flex items-center justify-center hidden md:flex">
+          <div class="w-2 h-2 bg-primary rounded-full animate-pulse"></div>
+        </div>
+        <div class="absolute bottom-1/3 right-1/4 z-20 font-mono text-xs text-primary/70 hidden md:block tracking-[0.3em] uppercase">
+          [THERMOCOUPLES · RTDs · INSTRUMENTS]
+        </div>
       </div>
-      <div class="hero-annotation" aria-hidden="true">[THERMOCOUPLES · RTDs · INSTRUMENTS]</div>
+      <div class="container mx-auto px-4 relative z-10 max-w-7xl">
+        <div class="max-w-3xl space-y-8">
+          <div class="inline-flex items-center border border-primary/30 bg-primary/10 px-3 py-1.5 text-xs font-mono tracking-widest text-primary">
+            <span class="w-2 h-2 bg-primary mr-3 animate-pulse"></span>
+            ESTABLISHED 1986
+          </div>
+          <h1 class="text-5xl md:text-7xl lg:text-[5.5rem] font-black text-white tracking-tighter leading-[0.95] uppercase">
+            Engineered for <br>
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-orange-400">Extremes.</span>
+          </h1>
+          <p class="text-lg md:text-xl text-secondary-foreground/80 max-w-2xl leading-relaxed font-light">
+            Leading industrial manufacturer of high-performance Thermocouples, RTDs, and Thermowells. Backed by an in-house ISO/IEC 17025:2017 accredited calibration laboratory.
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4 pt-6">
+            <a href="/products" class="inline-flex">
+              <button class="inline-flex items-center justify-center whitespace-nowrap text-base h-14 px-8 font-bold uppercase tracking-wider rounded-none ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 w-full sm:w-auto">
+                Explore Products <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-2 w-5 h-5"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+              </button>
+            </a>
+            <a href="/contact" class="inline-flex">
+              <button class="inline-flex items-center justify-center whitespace-nowrap text-base h-14 px-8 font-bold uppercase tracking-wider rounded-none border border-input ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-transparent text-white border-white/30 hover:bg-white/10 hover:text-white w-full sm:w-auto">
+                Request Quote
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-background border-b border-border relative z-20">
+      <div class="container mx-auto px-4 max-w-7xl">
+        <div class="grid grid-cols-2 md:grid-cols-4 divide-x divide-y md:divide-y-0 divide-border border-x border-border">
+          <div class="flex flex-col p-6 md:p-7 items-start gap-3 hover:bg-muted/30 transition-colors">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="w-10 h-10 text-primary"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path><path d="m9 12 2 2 4-4"></path></svg>
+            <div><h4 class="font-bold text-sm uppercase tracking-wider">NABL Accredited</h4><p class="text-[11px] text-muted-foreground font-mono mt-1 tracking-widest">ISO/IEC 17025:2017 LAB</p></div>
+          </div>
+          <div class="flex flex-col p-6 md:p-7 items-start gap-3 hover:bg-muted/30 transition-colors">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="w-10 h-10 text-primary"><path d="M12 16h.01"></path><path d="M16 16h.01"></path><path d="M3 19a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V8.5a.5.5 0 0 0-.769-.422l-4.462 2.844A.5.5 0 0 1 15 10.5v-2a.5.5 0 0 0-.769-.422L9.77 10.922A.5.5 0 0 1 9 10.5V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2z"></path><path d="M8 16h.01"></path></svg>
+            <div><h4 class="font-bold text-sm uppercase tracking-wider">In-house Mfg</h4><p class="text-[11px] text-muted-foreground font-mono mt-1 tracking-widest">END-TO-END QC</p></div>
+          </div>
+          <div class="flex flex-col p-6 md:p-7 items-start gap-3 hover:bg-muted/30 transition-colors">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="w-10 h-10 text-primary"><path d="M22 12h-2.48a2 2 0 0 0-1.93 1.46l-2.35 8.36a.25.25 0 0 1-.48 0L9.24 2.18a.25.25 0 0 0-.48 0l-2.35 8.36A2 2 0 0 1 4.49 12H2"></path></svg>
+            <div><h4 class="font-bold text-sm uppercase tracking-wider">Wide Calibration</h4><p class="text-[11px] text-muted-foreground font-mono mt-1 tracking-widest">-20°C TO 1200°C RANGE</p></div>
+          </div>
+          <div class="flex flex-col p-6 md:p-7 items-start gap-3 hover:bg-muted/30 transition-colors">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="w-10 h-10 text-primary"><path d="M4 22h14a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v4"></path><path d="M14 2v4a2 2 0 0 0 2 2h4"></path><path d="m3 15 2 2 4-4"></path></svg>
+            <div><h4 class="font-bold text-sm uppercase tracking-wider">35+ Years Legacy</h4><p class="text-[11px] text-muted-foreground font-mono mt-1 tracking-widest">PROVEN RELIABILITY</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="border-b border-border bg-background py-8 relative overflow-hidden">
+      <div class="absolute inset-0 pointer-events-none opacity-5" style="background-image: linear-gradient(#000 1px, transparent 1px), linear-gradient(90deg, #000 1px, transparent 1px); background-size: 32px 32px;"></div>
+      <div class="container mx-auto flex max-w-7xl items-center gap-6 px-4 relative z-10">
+        <div class="shrink-0 border-r border-border pr-6 bg-background">
+          <p class="font-mono text-[10px] font-bold uppercase tracking-[0.2em] text-primary">Client Base</p>
+          <p class="mt-1 hidden text-sm font-bold text-foreground md:block uppercase tracking-wider">Industry Leaders</p>
+        </div>
+        <div class="relative min-w-0 flex-1 overflow-hidden">
+          <div class="pointer-events-none absolute inset-y-0 left-0 z-10 w-16 bg-gradient-to-r from-background to-transparent"></div>
+          <div class="pointer-events-none absolute inset-y-0 right-0 z-10 w-16 bg-gradient-to-l from-background to-transparent"></div>
+          <div class="client-logo-marquee flex w-max items-center"><div class="mx-8 flex h-12 w-32 shrink-0 items-center justify-center px-2"><img src="/client-logos/tata-motors.png" alt="Tata Motors logo" class="w-auto max-w-[7.5rem] object-contain opacity-50 grayscale transition-all duration-300 hover:opacity-100 hover:grayscale-0 hover:scale-105" loading="lazy"></div><div class="mx-8 flex h-12 w-32 shrink-0 items-center justify-center px-2"><img src="/client-logos/ntpc.png" alt="NTPC logo" class="w-auto max-w-[7.5rem] object-contain opacity-50 grayscale transition-all duration-300 hover:opacity-100 hover:grayscale-0 hover:scale-105" loading="lazy"></div><div class="mx-8 flex h-12 w-32 shrink-0 items-center justify-center px-2"><img src="/client-logos/npcil.png" alt="NPCIL logo" class="w-auto max-w-[7.5rem] object-contain opacity-50 grayscale transition-all duration-300 hover:opacity-100 hover:grayscale-0 hover:scale-105" loading="lazy"></div><div class="mx-8 flex h-12 w-32 shrink-0 items-center justify-center px-2"><img src="/client-logos/bharat-forge.png" alt="Bharat Forge logo" class="w-auto max-w-[7.5rem] object-contain opacity-50 grayscale transition-all duration-300 hover:opacity-100 hover:grayscale-0 hover:scale-105" loading="lazy"></div><div class="mx-8 flex h-12 w-32 shrink-0 items-center justify-center px-2"><img src="/client-logos/thermax.png" alt="Thermax logo" class="w-auto max-w-[7.5rem] object-contain opacity-50 grayscale transition-all duration-300 hover:opacity-100 hover:grayscale-0 hover:scale-105" loading="lazy"></div><div class="mx-8 flex h-12 w-32 shrink-0 items-center justify-center px-2"><img src="/client-logos/cummins.png" alt="Cummins logo" class="w-auto max-w-[7.5rem] object-contain opacity-50 grayscale transition-all duration-300 hover:opacity-100 hover:grayscale-0 hover:scale-105" loading="lazy"></div><div class="mx-8 flex h-12 w-32 shrink-0 items-center justify-center px-2"><img src="/client-logos/whirlpool.png" alt="Whirlpool logo" class="w-auto max-w-[7.5rem] object-contain opacity-50 grayscale transition-all duration-300 hover:opacity-100 hover:grayscale-0 hover:scale-105" loading="lazy"></div><div class="mx-8 flex h-12 w-32 shrink-0 items-center justify-center px-2"><img src="/client-logos/national-chemical-laboratory.png" alt="National Chemical Laboratory logo" class="w-auto max-w-[7.5rem] object-contain opacity-50 grayscale transition-all duration-300 hover:opacity-100 hover:grayscale-0 hover:scale-105" loading="lazy"></div><div class="mx-8 flex h-12 w-32 shrink-0 items-center justify-center px-2"><img src="/client-logos/horiba.png" alt="HORIBA logo" class="w-auto max-w-[7.5rem] object-contain opacity-50 grayscale transition-all duration-300 hover:opacity-100 hover:grayscale-0 hover:scale-105" loading="lazy"></div><div class="mx-8 flex h-12 w-32 shrink-0 items-center justify-center px-2"><img src="/client-logos/maxion-wheels.png" alt="Maxion Wheels logo" class="w-auto max-w-[7.5rem] object-contain opacity-50 grayscale transition-all duration-300 hover:opacity-100 hover:grayscale-0 hover:scale-105" loading="lazy"></div><div class="mx-8 flex h-12 w-32 shrink-0 items-center justify-center px-2"><img src="/client-logos/godrej-boyce.png" alt="Godrej &amp; Boyce logo" class="w-auto max-w-[7.5rem] object-contain opacity-50 grayscale transition-all duration-300 hover:opacity-100 hover:grayscale-0 hover:scale-105" loading="lazy"></div><div class="mx-8 flex h-12 w-32 shrink-0 items-center justify-center px-2"><img src="/client-logos/blue-star.png" alt="Blue Star logo" class="w-auto max-w-[7.5rem] object-contain opacity-50 grayscale transition-all duration-300 hover:opacity-100 hover:grayscale-0 hover:scale-105" loading="lazy"></div><div class="mx-8 flex h-12 w-32 shrink-0 items-center justify-center px-2"><img src="/client-logos/reliance-industries.png" alt="Reliance Industries logo" class="w-auto max-w-[7.5rem] object-contain opacity-50 grayscale transition-all duration-300 hover:opacity-100 hover:grayscale-0 hover:scale-105" loading="lazy"></div><div class="mx-8 flex h-12 w-32 shrink-0 items-center justify-center px-2"><img src="/client-logos/maruti-suzuki.png" alt="Maruti Suzuki logo" class="w-auto max-w-[7.5rem] object-contain opacity-50 grayscale transition-all duration-300 hover:opacity-100 hover:grayscale-0 hover:scale-105" loading="lazy"></div><div class="mx-8 flex h-12 w-32 shrink-0 items-center justify-center px-2"><img src="/client-logos/bajaj-auto.png" alt="Bajaj Auto logo" class="w-auto max-w-[7.5rem] object-contain opacity-50 grayscale transition-all duration-300 hover:opacity-100 hover:grayscale-0 hover:scale-105" loading="lazy"></div><div class="mx-8 flex h-12 w-32 shrink-0 items-center justify-center px-2"><img src="/client-logos/mahindra.png" alt="Mahindra logo" class="w-auto max-w-[7.5rem] object-contain opacity-50 grayscale transition-all duration-300 hover:opacity-100 hover:grayscale-0 hover:scale-105" loading="lazy"></div><div class="mx-8 flex h-12 w-32 shrink-0 items-center justify-center px-2"><img src="/client-logos/arai.png" alt="ARAI logo" class="w-auto max-w-[7.5rem] object-contain opacity-50 grayscale transition-all duration-300 hover:opacity-100 hover:grayscale-0 hover:scale-105" loading="lazy"></div><div class="mx-8 flex h-12 w-32 shrink-0 items-center justify-center px-2"><img src="/client-logos/john-deere.png" alt="John Deere logo" class="w-auto max-w-[7.5rem] object-contain opacity-50 grayscale transition-all duration-300 hover:opacity-100 hover:grayscale-0 hover:scale-105" loading="lazy"></div><div class="mx-8 flex h-12 w-32 shrink-0 items-center justify-center px-2"><img src="/client-logos/tata-motors.png" alt="Tata Motors logo" class="w-auto max-w-[7.5rem] object-contain opacity-50 grayscale transition-all duration-300 hover:opacity-100 hover:grayscale-0 hover:scale-105" loading="lazy"></div><div class="mx-8 flex h-12 w-32 shrink-0 items-center justify-center px-2"><img src="/client-logos/ntpc.png" alt="NTPC logo" class="w-auto max-w-[7.5rem] object-contain opacity-50 grayscale transition-all duration-300 hover:opacity-100 hover:grayscale-0 hover:scale-105" loading="lazy"></div><div class="mx-8 flex h-12 w-32 shrink-0 items-center justify-center px-2"><img src="/client-logos/npcil.png" alt="NPCIL logo" class="w-auto max-w-[7.5rem] object-contain opacity-50 grayscale transition-all duration-300 hover:opacity-100 hover:grayscale-0 hover:scale-105" loading="lazy"></div><div class="mx-8 flex h-12 w-32 shrink-0 items-center justify-center px-2"><img src="/client-logos/bharat-forge.png" alt="Bharat Forge logo" class="w-auto max-w-[7.5rem] object-contain opacity-50 grayscale transition-all duration-300 hover:opacity-100 hover:grayscale-0 hover:scale-105" loading="lazy"></div><div class="mx-8 flex h-12 w-32 shrink-0 items-center justify-center px-2"><img src="/client-logos/thermax.png" alt="Thermax logo" class="w-auto max-w-[7.5rem] object-contain opacity-50 grayscale transition-all duration-300 hover:opacity-100 hover:grayscale-0 hover:scale-105" loading="lazy"></div><div class="mx-8 flex h-12 w-32 shrink-0 items-center justify-center px-2"><img src="/client-logos/cummins.png" alt="Cummins logo" class="w-auto max-w-[7.5rem] object-contain opacity-50 grayscale transition-all duration-300 hover:opacity-100 hover:grayscale-0 hover:scale-105" loading="lazy"></div><div class="mx-8 flex h-12 w-32 shrink-0 items-center justify-center px-2"><img src="/client-logos/whirlpool.png" alt="Whirlpool logo" class="w-auto max-w-[7.5rem] object-contain opacity-50 grayscale transition-all duration-300 hover:opacity-100 hover:grayscale-0 hover:scale-105" loading="lazy"></div><div class="mx-8 flex h-12 w-32 shrink-0 items-center justify-center px-2"><img src="/client-logos/national-chemical-laboratory.png" alt="National Chemical Laboratory logo" class="w-auto max-w-[7.5rem] object-contain opacity-50 grayscale transition-all duration-300 hover:opacity-100 hover:grayscale-0 hover:scale-105" loading="lazy"></div><div class="mx-8 flex h-12 w-32 shrink-0 items-center justify-center px-2"><img src="/client-logos/horiba.png" alt="HORIBA logo" class="w-auto max-w-[7.5rem] object-contain opacity-50 grayscale transition-all duration-300 hover:opacity-100 hover:grayscale-0 hover:scale-105" loading="lazy"></div><div class="mx-8 flex h-12 w-32 shrink-0 items-center justify-center px-2"><img src="/client-logos/maxion-wheels.png" alt="Maxion Wheels logo" class="w-auto max-w-[7.5rem] object-contain opacity-50 grayscale transition-all duration-300 hover:opacity-100 hover:grayscale-0 hover:scale-105" loading="lazy"></div><div class="mx-8 flex h-12 w-32 shrink-0 items-center justify-center px-2"><img src="/client-logos/godrej-boyce.png" alt="Godrej &amp; Boyce logo" class="w-auto max-w-[7.5rem] object-contain opacity-50 grayscale transition-all duration-300 hover:opacity-100 hover:grayscale-0 hover:scale-105" loading="lazy"></div><div class="mx-8 flex h-12 w-32 shrink-0 items-center justify-center px-2"><img src="/client-logos/blue-star.png" alt="Blue Star logo" class="w-auto max-w-[7.5rem] object-contain opacity-50 grayscale transition-all duration-300 hover:opacity-100 hover:grayscale-0 hover:scale-105" loading="lazy"></div><div class="mx-8 flex h-12 w-32 shrink-0 items-center justify-center px-2"><img src="/client-logos/reliance-industries.png" alt="Reliance Industries logo" class="w-auto max-w-[7.5rem] object-contain opacity-50 grayscale transition-all duration-300 hover:opacity-100 hover:grayscale-0 hover:scale-105" loading="lazy"></div><div class="mx-8 flex h-12 w-32 shrink-0 items-center justify-center px-2"><img src="/client-logos/maruti-suzuki.png" alt="Maruti Suzuki logo" class="w-auto max-w-[7.5rem] object-contain opacity-50 grayscale transition-all duration-300 hover:opacity-100 hover:grayscale-0 hover:scale-105" loading="lazy"></div><div class="mx-8 flex h-12 w-32 shrink-0 items-center justify-center px-2"><img src="/client-logos/bajaj-auto.png" alt="Bajaj Auto logo" class="w-auto max-w-[7.5rem] object-contain opacity-50 grayscale transition-all duration-300 hover:opacity-100 hover:grayscale-0 hover:scale-105" loading="lazy"></div><div class="mx-8 flex h-12 w-32 shrink-0 items-center justify-center px-2"><img src="/client-logos/mahindra.png" alt="Mahindra logo" class="w-auto max-w-[7.5rem] object-contain opacity-50 grayscale transition-all duration-300 hover:opacity-100 hover:grayscale-0 hover:scale-105" loading="lazy"></div><div class="mx-8 flex h-12 w-32 shrink-0 items-center justify-center px-2"><img src="/client-logos/arai.png" alt="ARAI logo" class="w-auto max-w-[7.5rem] object-contain opacity-50 grayscale transition-all duration-300 hover:opacity-100 hover:grayscale-0 hover:scale-105" loading="lazy"></div><div class="mx-8 flex h-12 w-32 shrink-0 items-center justify-center px-2"><img src="/client-logos/john-deere.png" alt="John Deere logo" class="w-auto max-w-[7.5rem] object-contain opacity-50 grayscale transition-all duration-300 hover:opacity-100 hover:grayscale-0 hover:scale-105" loading="lazy"></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-14 md:py-20 bg-muted/20 relative">
+      <div class="container mx-auto px-4 max-w-7xl">
+        <div class="flex flex-col md:flex-row md:justify-between md:items-end mb-10 gap-5">
+          <div class="space-y-4 max-w-2xl">
+            <div class="flex items-center gap-2 text-primary font-mono text-xs font-bold tracking-[0.2em] uppercase">
+              <span class="w-8 h-px bg-primary"></span>
+              Product Portfolio
+            </div>
+            <h2 class="text-3xl md:text-5xl font-black tracking-tight uppercase">Industrial Sensing <br>Solutions.</h2>
+          </div>
+          <a href="/products" class="group hidden md:inline-flex items-center text-sm font-bold uppercase tracking-wider hover:text-primary transition-colors">
+            View Full Catalog
+            <span class="bg-primary text-primary-foreground ml-4 p-2.5 rounded-none group-hover:bg-primary/90 transition-colors">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+            </span>
+          </a>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-px bg-border border border-border shadow-sm">
+          <a href="/product-categories/temperature-instruments" class="group relative bg-background p-7 md:p-8 flex flex-col justify-between h-[300px] transition-all duration-300 hover:bg-secondary hover:text-white overflow-hidden">
+            <div class="absolute inset-0 opacity-0 group-hover:opacity-10 transition-opacity duration-300 pointer-events-none" style="background-image: linear-gradient(#fff 1px, transparent 1px), linear-gradient(90deg, #fff 1px, transparent 1px); background-size: 24px 24px;"></div>
+            <div class="relative z-10">
+              <div class="text-muted-foreground/30 group-hover:text-white/20 transition-colors mb-8 h-12 w-12 flex items-center justify-center">
+                <img src="/images/category-controllers.svg" alt="Instruments" class="max-w-full max-h-full object-contain grayscale group-hover:grayscale-0 transition-all duration-300 opacity-50 group-hover:opacity-100">
+              </div>
+              <h3 class="text-2xl font-bold uppercase tracking-tight mb-4">Instruments</h3>
+              <p class="text-sm text-muted-foreground group-hover:text-white/70 line-clamp-3 leading-relaxed">Precision instruments for monitoring and controlling industrial process temperatures.</p>
+            </div>
+            <div class="relative z-10 flex items-center justify-between mt-6 pt-6 border-t border-border group-hover:border-white/20 transition-colors">
+              <span class="font-mono text-xs tracking-widest text-primary">39 SERIES</span>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 text-muted-foreground group-hover:text-primary transition-colors transform group-hover:translate-x-1"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+            </div>
+          </a><a href="/product-categories/other-products" class="group relative bg-background p-7 md:p-8 flex flex-col justify-between h-[300px] transition-all duration-300 hover:bg-secondary hover:text-white overflow-hidden">
+            <div class="absolute inset-0 opacity-0 group-hover:opacity-10 transition-opacity duration-300 pointer-events-none" style="background-image: linear-gradient(#fff 1px, transparent 1px), linear-gradient(90deg, #fff 1px, transparent 1px); background-size: 24px 24px;"></div>
+            <div class="relative z-10">
+              <div class="text-muted-foreground/30 group-hover:text-white/20 transition-colors mb-8 h-12 w-12 flex items-center justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="w-12 h-12"><path d="M14 4v10.54a4 4 0 1 1-4 0V4a2 2 0 0 1 4 0Z"></path></svg>
+              </div>
+              <h3 class="text-2xl font-bold uppercase tracking-tight mb-4">Other Products</h3>
+              <p class="text-sm text-muted-foreground group-hover:text-white/70 line-clamp-3 leading-relaxed">Sensors, switches, gauges and related products recovered from the Yog Electro Process website catalogue.</p>
+            </div>
+            <div class="relative z-10 flex items-center justify-between mt-6 pt-6 border-t border-border group-hover:border-white/20 transition-colors">
+              <span class="font-mono text-xs tracking-widest text-primary">13 SERIES</span>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 text-muted-foreground group-hover:text-primary transition-colors transform group-hover:translate-x-1"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+            </div>
+          </a><a href="/product-categories/rtd-head-type" class="group relative bg-background p-7 md:p-8 flex flex-col justify-between h-[300px] transition-all duration-300 hover:bg-secondary hover:text-white overflow-hidden">
+            <div class="absolute inset-0 opacity-0 group-hover:opacity-10 transition-opacity duration-300 pointer-events-none" style="background-image: linear-gradient(#fff 1px, transparent 1px), linear-gradient(90deg, #fff 1px, transparent 1px); background-size: 24px 24px;"></div>
+            <div class="relative z-10">
+              <div class="text-muted-foreground/30 group-hover:text-white/20 transition-colors mb-8 h-12 w-12 flex items-center justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="w-12 h-12"><path d="M14 4v10.54a4 4 0 1 1-4 0V4a2 2 0 0 1 4 0Z"></path></svg>
+              </div>
+              <h3 class="text-2xl font-bold uppercase tracking-tight mb-4">RTD – Head Type</h3>
+              <p class="text-sm text-muted-foreground group-hover:text-white/70 line-clamp-3 leading-relaxed">Head-type RTD sensors from the Yog Electro Process website catalogue.</p>
+            </div>
+            <div class="relative z-10 flex items-center justify-between mt-6 pt-6 border-t border-border group-hover:border-white/20 transition-colors">
+              <span class="font-mono text-xs tracking-widest text-primary">06 SERIES</span>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 text-muted-foreground group-hover:text-primary transition-colors transform group-hover:translate-x-1"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+            </div>
+          </a><a href="/product-categories/rtd-transition-type" class="group relative bg-background p-7 md:p-8 flex flex-col justify-between h-[300px] transition-all duration-300 hover:bg-secondary hover:text-white overflow-hidden">
+            <div class="absolute inset-0 opacity-0 group-hover:opacity-10 transition-opacity duration-300 pointer-events-none" style="background-image: linear-gradient(#fff 1px, transparent 1px), linear-gradient(90deg, #fff 1px, transparent 1px); background-size: 24px 24px;"></div>
+            <div class="relative z-10">
+              <div class="text-muted-foreground/30 group-hover:text-white/20 transition-colors mb-8 h-12 w-12 flex items-center justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="w-12 h-12"><path d="M14 4v10.54a4 4 0 1 1-4 0V4a2 2 0 0 1 4 0Z"></path></svg>
+              </div>
+              <h3 class="text-2xl font-bold uppercase tracking-tight mb-4">RTD – Transition Type</h3>
+              <p class="text-sm text-muted-foreground group-hover:text-white/70 line-clamp-3 leading-relaxed">Transition-type RTD sensors recovered from the Yog Electro Process website catalogue.</p>
+            </div>
+            <div class="relative z-10 flex items-center justify-between mt-6 pt-6 border-t border-border group-hover:border-white/20 transition-colors">
+              <span class="font-mono text-xs tracking-widest text-primary">15 SERIES</span>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 text-muted-foreground group-hover:text-primary transition-colors transform group-hover:translate-x-1"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+            </div>
+          </a><a href="/product-categories/thermocouple-head-type" class="group relative bg-background p-7 md:p-8 flex flex-col justify-between h-[300px] transition-all duration-300 hover:bg-secondary hover:text-white overflow-hidden">
+            <div class="absolute inset-0 opacity-0 group-hover:opacity-10 transition-opacity duration-300 pointer-events-none" style="background-image: linear-gradient(#fff 1px, transparent 1px), linear-gradient(90deg, #fff 1px, transparent 1px); background-size: 24px 24px;"></div>
+            <div class="relative z-10">
+              <div class="text-muted-foreground/30 group-hover:text-white/20 transition-colors mb-8 h-12 w-12 flex items-center justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="w-12 h-12"><path d="M14 4v10.54a4 4 0 1 1-4 0V4a2 2 0 0 1 4 0Z"></path></svg>
+              </div>
+              <h3 class="text-2xl font-bold uppercase tracking-tight mb-4">Thermocouple – Head Type</h3>
+              <p class="text-sm text-muted-foreground group-hover:text-white/70 line-clamp-3 leading-relaxed">Head-type thermocouples and transducers recovered from the Yog Electro Process website catalogue.</p>
+            </div>
+            <div class="relative z-10 flex items-center justify-between mt-6 pt-6 border-t border-border group-hover:border-white/20 transition-colors">
+              <span class="font-mono text-xs tracking-widest text-primary">14 SERIES</span>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 text-muted-foreground group-hover:text-primary transition-colors transform group-hover:translate-x-1"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+            </div>
+          </a><a href="/product-categories/thermocouple-transition-type" class="group relative bg-background p-7 md:p-8 flex flex-col justify-between h-[300px] transition-all duration-300 hover:bg-secondary hover:text-white overflow-hidden">
+            <div class="absolute inset-0 opacity-0 group-hover:opacity-10 transition-opacity duration-300 pointer-events-none" style="background-image: linear-gradient(#fff 1px, transparent 1px), linear-gradient(90deg, #fff 1px, transparent 1px); background-size: 24px 24px;"></div>
+            <div class="relative z-10">
+              <div class="text-muted-foreground/30 group-hover:text-white/20 transition-colors mb-8 h-12 w-12 flex items-center justify-center">
+                <img src="/product-images/thermocouple-transition/wp-78.png" alt="Thermocouple – Transition Type" class="max-w-full max-h-full object-contain grayscale group-hover:grayscale-0 transition-all duration-300 opacity-50 group-hover:opacity-100">
+              </div>
+              <h3 class="text-2xl font-bold uppercase tracking-tight mb-4">Thermocouple – Transition Type</h3>
+              <p class="text-sm text-muted-foreground group-hover:text-white/70 line-clamp-3 leading-relaxed">Transition-type thermocouples for surface, immersion, machinery, process, furnace, automotive and laboratory temperature measurement.</p>
+            </div>
+            <div class="relative z-10 flex items-center justify-between mt-6 pt-6 border-t border-border group-hover:border-white/20 transition-colors">
+              <span class="font-mono text-xs tracking-widest text-primary">24 SERIES</span>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 text-muted-foreground group-hover:text-primary transition-colors transform group-hover:translate-x-1"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-14 md:py-20 bg-background border-t border-border">
+      <div class="container mx-auto px-4 max-w-7xl">
+        <div class="flex flex-col items-center text-center mb-12 space-y-3">
+          <div class="flex items-center gap-2 text-primary font-mono text-xs font-bold tracking-[0.2em] uppercase">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4"><path d="M8 3H5a2 2 0 0 0-2 2v3"></path><path d="M21 8V5a2 2 0 0 0-2-2h-3"></path><path d="M3 16v3a2 2 0 0 0 2 2h3"></path><path d="M16 21h3a2 2 0 0 0 2-2v-3"></path></svg> High-Performance Instruments
+          </div>
+          <h2 class="text-3xl md:text-5xl font-black tracking-tight uppercase">Featured Products</h2>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          
+            <a href="/products/bayonet-sensor-78" class="group flex flex-col bg-background border border-border hover:border-primary/50 transition-all duration-300 hover:shadow-2xl hover:-translate-y-1">
+              <div class="aspect-[4/3] p-8 flex items-center justify-center relative border-b border-border bg-white overflow-hidden">
+                <div class="absolute top-4 right-4 bg-secondary text-white font-mono text-[10px] px-2 py-1 tracking-widest z-10">WP-78</div>
+                <div class="absolute top-4 left-4 text-primary font-mono text-[10px] font-bold tracking-widest uppercase z-10">Thermocouple – Transition Type</div>
+                <img src="/product-images/thermocouple-transition/wp-78.png" alt="Bayonet Sensor" class="object-contain w-full h-full mix-blend-multiply group-hover:scale-110 transition-transform duration-700">
+              </div>
+              <div class="p-8 flex flex-col flex-1">
+                <h3 class="text-xl font-bold uppercase tracking-tight mb-4 line-clamp-2 group-hover:text-primary transition-colors">Bayonet Sensor</h3>
+                <p class="text-sm text-muted-foreground line-clamp-3 mb-8 flex-1 leading-relaxed">The Bayonet Thermocouple/Sensor is a valuable tool for measuring temperature in solid objects and surfaces in various industries.</p>
+                <div class="flex items-center text-xs font-bold uppercase tracking-wider text-foreground group-hover:text-primary transition-colors mt-auto">
+                  View Specifications <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 ml-2 transform group-hover:translate-x-1 transition-transform"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                </div>
+              </div>
+            </a>
+          
+            <a href="/products/humidity-temperature-transmitter-201" class="group flex flex-col bg-background border border-border hover:border-primary/50 transition-all duration-300 hover:shadow-2xl hover:-translate-y-1">
+              <div class="aspect-[4/3] p-8 flex items-center justify-center relative border-b border-border bg-white overflow-hidden">
+                
+                <div class="absolute top-4 left-4 text-primary font-mono text-[10px] font-bold tracking-widest uppercase z-10">Instruments</div>
+                <img src="/images/products/website/201-humidity-temperature-transmitter.webp" alt="Humidity Temperature Transmitter" class="object-contain w-full h-full mix-blend-multiply group-hover:scale-110 transition-transform duration-700">
+              </div>
+              <div class="p-8 flex flex-col flex-1">
+                <h3 class="text-xl font-bold uppercase tracking-tight mb-4 line-clamp-2 group-hover:text-primary transition-colors">Humidity Temperature Transmitter</h3>
+                <p class="text-sm text-muted-foreground line-clamp-3 mb-8 flex-1 leading-relaxed">Humidity and temperature measurement play an important role in any process industry.</p>
+                <div class="flex items-center text-xs font-bold uppercase tracking-wider text-foreground group-hover:text-primary transition-colors mt-auto">
+                  View Specifications <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 ml-2 transform group-hover:translate-x-1 transition-transform"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                </div>
+              </div>
+            </a>
+          
+            <a href="/products/thermocouple-with-rotating-plug-41" class="group flex flex-col bg-background border border-border hover:border-primary/50 transition-all duration-300 hover:shadow-2xl hover:-translate-y-1">
+              <div class="aspect-[4/3] p-8 flex items-center justify-center relative border-b border-border bg-white overflow-hidden">
+                <div class="absolute top-4 right-4 bg-secondary text-white font-mono text-[10px] px-2 py-1 tracking-widest z-10">WP-41</div>
+                <div class="absolute top-4 left-4 text-primary font-mono text-[10px] font-bold tracking-widest uppercase z-10">Thermocouple – Transition Type</div>
+                <img src="/product-images/thermocouple-transition/wp-41.png" alt="Thermocouple With Rotating Plug" class="object-contain w-full h-full mix-blend-multiply group-hover:scale-110 transition-transform duration-700">
+              </div>
+              <div class="p-8 flex flex-col flex-1">
+                <h3 class="text-xl font-bold uppercase tracking-tight mb-4 line-clamp-2 group-hover:text-primary transition-colors">Thermocouple With Rotating Plug</h3>
+                <p class="text-sm text-muted-foreground line-clamp-3 mb-8 flex-1 leading-relaxed">Thermocouple With Rotating Plug (K, J) The sensors are used in a wide range of Industrial robots, Automotive, Construction, Agricultural, Aeronautics, Space Industries.</p>
+                <div class="flex items-center text-xs font-bold uppercase tracking-wider text-foreground group-hover:text-primary transition-colors mt-auto">
+                  View Specifications <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 ml-2 transform group-hover:translate-x-1 transition-transform"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                </div>
+              </div>
+            </a>
+          
+        </div>
+      </div>
+    </section>
+
+    <section class="py-14 md:py-20 bg-secondary text-white relative overflow-hidden">
+      <div class="absolute top-0 right-0 w-full md:w-1/2 h-full opacity-5 pointer-events-none">
+        <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="white" stroke-width="1"/></pattern></defs><rect width="100%" height="100%" fill="url(#grid)" /></svg>
+      </div>
+      <div class="container mx-auto max-w-7xl px-4 relative z-10">
+        <div class="mb-12 flex flex-col justify-between gap-6 md:flex-row md:items-end">
+          <div class="max-w-2xl">
+            <div class="flex items-center gap-2 text-primary font-mono text-xs font-bold tracking-[0.2em] uppercase mb-4">
+              <span class="w-8 h-px bg-primary"></span>
+              Application Engineering
+            </div>
+            <h2 class="text-3xl md:text-5xl font-black tracking-tight uppercase">Built Around Your <br>Process.</h2>
+          </div>
+          <a href="/applications" class="group inline-flex items-center text-sm font-bold uppercase tracking-wider hover:text-primary transition-colors">
+            All Application Guides
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 ml-2 transform group-hover:translate-x-1 transition-transform text-primary"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+          </a>
+        </div>
+        <div class="grid gap-px bg-white/10 border border-white/10 sm:grid-cols-2 lg:grid-cols-3 shadow-2xl">
+          
+            <a href="/applications/temperature-sensors-for-steel-plants" class="group relative bg-secondary p-10 hover:bg-secondary-foreground/5 transition-colors overflow-hidden">
+              <div class="absolute bottom-0 left-0 w-full h-1 bg-primary transform translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
+              <h3 class="text-xl font-bold uppercase tracking-tight mb-4 text-white transition-colors group-hover:text-primary">Temperature Sensors for Steel Plants</h3>
+              <p class="text-sm leading-relaxed text-secondary-foreground/60 group-hover:text-secondary-foreground/90 transition-colors">A practical guide to matching sensor construction with furnace zones, molten-metal processes, rolling lines and plant utilities.</p>
+            </a>
+          
+            <a href="/applications/thermocouple-for-blast-furnace" class="group relative bg-secondary p-10 hover:bg-secondary-foreground/5 transition-colors overflow-hidden">
+              <div class="absolute bottom-0 left-0 w-full h-1 bg-primary transform translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
+              <h3 class="text-xl font-bold uppercase tracking-tight mb-4 text-white transition-colors group-hover:text-primary">Thermocouple for Blast Furnace</h3>
+              <p class="text-sm leading-relaxed text-secondary-foreground/60 group-hover:text-secondary-foreground/90 transition-colors">Sensor selection for shell, refractory, hot-blast, gas and auxiliary measurement points in ironmaking operations.</p>
+            </a>
+          
+            <a href="/applications/injection-molding-machine-thermocouple" class="group relative bg-secondary p-10 hover:bg-secondary-foreground/5 transition-colors overflow-hidden">
+              <div class="absolute bottom-0 left-0 w-full h-1 bg-primary transform translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
+              <h3 class="text-xl font-bold uppercase tracking-tight mb-4 text-white transition-colors group-hover:text-primary">Injection Molding Machine Thermocouple</h3>
+              <p class="text-sm leading-relaxed text-secondary-foreground/60 group-hover:text-secondary-foreground/90 transition-colors">Fast, repeatable temperature measurement for barrel zones, nozzles, heater bands, molds and hot-runner systems.</p>
+            </a>
+          
+            <a href="/applications/boiler-temperature-measurement" class="group relative bg-secondary p-10 hover:bg-secondary-foreground/5 transition-colors overflow-hidden">
+              <div class="absolute bottom-0 left-0 w-full h-1 bg-primary transform translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
+              <h3 class="text-xl font-bold uppercase tracking-tight mb-4 text-white transition-colors group-hover:text-primary">Boiler Temperature Measurement</h3>
+              <p class="text-sm leading-relaxed text-secondary-foreground/60 group-hover:text-secondary-foreground/90 transition-colors">A zone-by-zone approach to measuring furnace gas, flue gas, steam, feedwater and rotating equipment temperatures.</p>
+            </a>
+          
+            <a href="/applications/thermocouple-for-engine-testing" class="group relative bg-secondary p-10 hover:bg-secondary-foreground/5 transition-colors overflow-hidden">
+              <div class="absolute bottom-0 left-0 w-full h-1 bg-primary transform translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
+              <h3 class="text-xl font-bold uppercase tracking-tight mb-4 text-white transition-colors group-hover:text-primary">Thermocouple for Engine Testing</h3>
+              <p class="text-sm leading-relaxed text-secondary-foreground/60 group-hover:text-secondary-foreground/90 transition-colors">Responsive temperature measurement for exhaust, intake, coolant, oil and component-development test points.</p>
+            </a>
+          
+            <a href="/applications/thermocouple-for-forging-industry" class="group relative bg-secondary p-10 hover:bg-secondary-foreground/5 transition-colors overflow-hidden">
+              <div class="absolute bottom-0 left-0 w-full h-1 bg-primary transform translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
+              <h3 class="text-xl font-bold uppercase tracking-tight mb-4 text-white transition-colors group-hover:text-primary">Thermocouple for Forging Industry</h3>
+              <p class="text-sm leading-relaxed text-secondary-foreground/60 group-hover:text-secondary-foreground/90 transition-colors">Temperature measurement for billet heating, furnace zones, die heating and downstream heat-treatment operations.</p>
+            </a>
+          
+        </div>
+      </div>
+    </section>
+
+    <section class="py-14 md:py-20 bg-background border-t border-border">
+      <div class="container mx-auto px-4 max-w-7xl">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+          <div class="order-2 lg:order-1 relative group">
+            <div class="aspect-[4/5] relative border border-border bg-muted p-3 shadow-xl">
+              <img src="/assets/media/nabl-scope.jpg" alt="NABL scope of accreditation" class="w-full h-full object-contain bg-white opacity-95 group-hover:opacity-100 transition-opacity duration-500">
+              <div class="absolute bottom-8 -right-4 lg:-right-12 bg-background border border-border p-6 shadow-2xl max-w-xs hidden sm:block transform group-hover:-translate-y-2 transition-transform duration-500">
+                <div class="flex items-center gap-3 mb-3">
+                  <div class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
+                  <span class="font-mono text-xs font-bold tracking-widest uppercase">Lab Status: Active</span>
+                </div>
+                <p class="text-sm text-muted-foreground leading-relaxed">Operating per ISO/IEC 17025:2017 standards for thermal measurement calibration.</p>
+              </div>
+            </div>
+          </div>
+          <div class="order-1 lg:order-2 space-y-8">
+            <div class="flex items-center gap-2 text-primary font-mono text-xs font-bold tracking-[0.2em] uppercase">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4"><path d="M6 18h8"></path><path d="M3 22h18"></path><path d="M14 22a7 7 0 1 0 0-14h-1"></path><path d="M9 14h2"></path><path d="M9 12a2 2 0 0 1-2-2V6h6v4a2 2 0 0 1-2 2Z"></path><path d="M12 6V3a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v3"></path></svg> Absolute Precision
+            </div>
+            <h2 class="text-3xl md:text-5xl font-black tracking-tight uppercase">NABL Accredited <br>Calibration Lab.</h2>
+            <div class="space-y-8 text-muted-foreground leading-relaxed">
+              <p class="text-lg">A sensor is only as reliable as its calibration. Our in-house NABL-accredited laboratory provides certified traceability for thermal measurements across demanding industrial sectors.</p>
+              <ul class="space-y-5 font-mono text-sm tracking-wider text-foreground">
+                <li class="flex items-start gap-4"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 text-primary shrink-0"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg> <span class="uppercase">Accredited Range: -20°C to 1200°C</span></li>
+                <li class="flex items-start gap-4"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 text-primary shrink-0"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg> <span class="uppercase">ISO/IEC 17025:2017 Compliance</span></li>
+                <li class="flex items-start gap-4"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 text-primary shrink-0"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg> <span class="uppercase">Published Scope & CMC Values</span></li>
+              </ul>
+            </div>
+            <div class="pt-6">
+              <a href="/quality" class="inline-flex">
+                <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-14 px-8 font-bold uppercase tracking-wider rounded-none">
+                  View Scope of Accreditation <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 ml-2"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div></main>
+<footer class="bg-secondary text-secondary-foreground border-t border-secondary-border">
+  <div class="container mx-auto px-4 py-12 max-w-7xl">
+    <div class="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-5">
+      <div class="md:col-span-1">
+        <a href="/" class="flex items-center gap-2 mb-4 group">
+          <div class="bg-primary text-primary-foreground p-1.5 rounded flex items-center justify-center">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6"><path d="M12 16h.01"></path><path d="M16 16h.01"></path><path d="M3 19a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V8.5a.5.5 0 0 0-.769-.422l-4.462 2.844A.5.5 0 0 1 15 10.5v-2a.5.5 0 0 0-.769-.422L9.77 10.922A.5.5 0 0 1 9 10.5V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2z"></path><path d="M8 16h.01"></path></svg>
+          </div>
+          <div class="flex flex-col">
+            <span class="font-bold text-xl leading-none tracking-tight text-white">YOG ELECTRO</span>
+            <span class="text-[10px] text-white/70 font-mono leading-none tracking-widest uppercase mt-1">PROCESS PVT LTD</span>
+          </div>
+        </a>
+        <p class="text-secondary-foreground/70 text-sm mt-4 leading-relaxed">
+          Industrial temperature measurement and calibration solutions since 1986. Decades of engineering excellence.
+        </p>
+      </div>
+      <div>
+        <h4 class="font-semibold text-white mb-4">Products</h4>
+        <ul class="space-y-2 text-sm text-secondary-foreground/80">
+          <li><a href="/products" class="hover:text-primary transition-colors">All Products</a></li>
+          <li><a href="/product-categories/thermocouple-head-type" class="hover:text-primary transition-colors">Thermocouple – Head Type</a></li>
+          <li><a href="/product-categories/rtd-head-type" class="hover:text-primary transition-colors">RTD – Head Type</a></li>
+          <li><a href="/product-categories/temperature-instruments" class="hover:text-primary transition-colors">Temperature Instruments</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-semibold text-white mb-4">Applications</h4>
+        <ul class="space-y-2 text-sm text-secondary-foreground/80">
+          <li><a href="/applications/temperature-sensors-for-steel-plants" class="hover:text-primary transition-colors">Steel Plants</a></li>
+          <li><a href="/applications/temperature-sensors-for-power-plants" class="hover:text-primary transition-colors">Power Plants</a></li>
+          <li><a href="/applications/temperature-sensors-for-chemical-process-plants" class="hover:text-primary transition-colors">Chemical Plants</a></li>
+          <li><a href="/applications/temperature-sensors-for-oil-gas" class="hover:text-primary transition-colors">Oil &amp; Gas</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-semibold text-white mb-4">Company</h4>
+        <ul class="space-y-2 text-sm text-secondary-foreground/80">
+          <li><a href="/about" class="hover:text-primary transition-colors">About Us</a></li>
+          <li><a href="/quality" class="hover:text-primary transition-colors">Quality &amp; Lab</a></li>
+          <li><a href="/contact" class="hover:text-primary transition-colors">Contact</a></li>
+          <li><a href="/resources" class="hover:text-primary transition-colors">Resources</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-semibold text-white mb-4">Contact</h4>
+        <ul class="space-y-3 text-sm text-secondary-foreground/80">
+          <li class="flex items-start gap-3">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 mt-0.5 text-primary shrink-0"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            <span>G-63/8, Phase III, MIDC-Chakan,<br>Pune 410501</span>
+          </li>
+          <li class="flex items-center gap-3">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 text-primary shrink-0"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"></path></svg>
+            <a href="tel:+919371015550" class="hover:text-primary transition-colors">+91 9371015550</a>
+          </li>
+          <li class="flex items-center gap-3">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 text-primary shrink-0"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path><rect x="2" y="4" width="20" height="16" rx="2"></rect></svg>
+            <a href="mailto:info@yogelectroprocess.com" class="hover:text-primary transition-colors">info@yogelectroprocess.com</a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </section>
-  <section class="trust-strip"><div class="container trust-grid">
-    <article><span class="trust-icon">◇</span><div><h3>NABL Accredited</h3><p>ISO/IEC 17025:2017 LAB</p></div></article>
-    <article><span class="trust-icon">⌂</span><div><h3>In-house Mfg</h3><p>END-TO-END QC</p></div></article>
-    <article><span class="trust-icon">⌁</span><div><h3>Wide Calibration</h3><p>-20°C TO 1200°C RANGE</p></div></article>
-    <article><span class="trust-icon">✓</span><div><h3>35+ Years Legacy</h3><p>PROVEN RELIABILITY</p></div></article>
-  </div></section>
-  <section class="client-strip"><div class="container client-row"><div class="client-label"><span>Client Base</span><strong>Industry Leaders</strong></div><div class="client-window"><div class="client-marquee"><span class="client-logo"><img src="/client-logos/tata-motors.png" alt="Tata Motors logo" loading="lazy"></span><span class="client-logo"><img src="/client-logos/ntpc.png" alt="NTPC logo" loading="lazy"></span><span class="client-logo"><img src="/client-logos/npcil.png" alt="NPCIL logo" loading="lazy"></span><span class="client-logo"><img src="/client-logos/bharat-forge.png" alt="Bharat Forge logo" loading="lazy"></span><span class="client-logo"><img src="/client-logos/thermax.png" alt="Thermax logo" loading="lazy"></span><span class="client-logo"><img src="/client-logos/cummins.png" alt="Cummins logo" loading="lazy"></span><span class="client-logo"><img src="/client-logos/whirlpool.png" alt="Whirlpool logo" loading="lazy"></span><span class="client-logo"><img src="/client-logos/national-chemical-laboratory.png" alt="National Chemical Laboratory logo" loading="lazy"></span><span class="client-logo"><img src="/client-logos/horiba.png" alt="HORIBA logo" loading="lazy"></span><span class="client-logo"><img src="/client-logos/maxion-wheels.png" alt="Maxion Wheels logo" loading="lazy"></span><span class="client-logo"><img src="/client-logos/godrej-boyce.png" alt="Godrej &amp; Boyce logo" loading="lazy"></span><span class="client-logo"><img src="/client-logos/blue-star.png" alt="Blue Star logo" loading="lazy"></span><span class="client-logo"><img src="/client-logos/reliance-industries.png" alt="Reliance Industries logo" loading="lazy"></span><span class="client-logo"><img src="/client-logos/maruti-suzuki.png" alt="Maruti Suzuki logo" loading="lazy"></span><span class="client-logo"><img src="/client-logos/bajaj-auto.png" alt="Bajaj Auto logo" loading="lazy"></span><span class="client-logo"><img src="/client-logos/mahindra.png" alt="Mahindra logo" loading="lazy"></span><span class="client-logo"><img src="/client-logos/arai.png" alt="ARAI logo" loading="lazy"></span><span class="client-logo"><img src="/client-logos/john-deere.png" alt="John Deere logo" loading="lazy"></span><span class="client-logo"><img src="/client-logos/tata-motors.png" alt="Tata Motors logo" loading="lazy"></span><span class="client-logo"><img src="/client-logos/ntpc.png" alt="NTPC logo" loading="lazy"></span><span class="client-logo"><img src="/client-logos/npcil.png" alt="NPCIL logo" loading="lazy"></span><span class="client-logo"><img src="/client-logos/bharat-forge.png" alt="Bharat Forge logo" loading="lazy"></span><span class="client-logo"><img src="/client-logos/thermax.png" alt="Thermax logo" loading="lazy"></span><span class="client-logo"><img src="/client-logos/cummins.png" alt="Cummins logo" loading="lazy"></span><span class="client-logo"><img src="/client-logos/whirlpool.png" alt="Whirlpool logo" loading="lazy"></span><span class="client-logo"><img src="/client-logos/national-chemical-laboratory.png" alt="National Chemical Laboratory logo" loading="lazy"></span><span class="client-logo"><img src="/client-logos/horiba.png" alt="HORIBA logo" loading="lazy"></span><span class="client-logo"><img src="/client-logos/maxion-wheels.png" alt="Maxion Wheels logo" loading="lazy"></span><span class="client-logo"><img src="/client-logos/godrej-boyce.png" alt="Godrej &amp; Boyce logo" loading="lazy"></span><span class="client-logo"><img src="/client-logos/blue-star.png" alt="Blue Star logo" loading="lazy"></span><span class="client-logo"><img src="/client-logos/reliance-industries.png" alt="Reliance Industries logo" loading="lazy"></span><span class="client-logo"><img src="/client-logos/maruti-suzuki.png" alt="Maruti Suzuki logo" loading="lazy"></span><span class="client-logo"><img src="/client-logos/bajaj-auto.png" alt="Bajaj Auto logo" loading="lazy"></span><span class="client-logo"><img src="/client-logos/mahindra.png" alt="Mahindra logo" loading="lazy"></span><span class="client-logo"><img src="/client-logos/arai.png" alt="ARAI logo" loading="lazy"></span><span class="client-logo"><img src="/client-logos/john-deere.png" alt="John Deere logo" loading="lazy"></span></div></div></div></section>
-  <section class="section section-soft portfolio-section"><div class="container"><div class="section-heading-row"><div class="section-title"><div class="eyebrow line-eyebrow">Product Portfolio</div><h2>Industrial Sensing<br>Solutions.</h2></div><a class="catalog-link" href="/products">View Full Catalog <span>→</span></a></div><div class="grid grid-4"><article class="card category-card"><img src="/images/category-controllers.svg" alt="Instruments"><h3><a href="/product-categories/temperature-instruments">Instruments</a></h3><p>Precision instruments for monitoring and controlling industrial process temperatures.</p><div class="category-meta"><span>39 SERIES</span><a href="/product-categories/temperature-instruments" aria-label="View Instruments">→</a></div></article><article class="card category-card"><div class="category-placeholder">⌖</div><h3><a href="/product-categories/other-products">Other Products</a></h3><p>Sensors, switches, gauges and related products recovered from the Yog Electro Process website catalogue.</p><div class="category-meta"><span>13 SERIES</span><a href="/product-categories/other-products" aria-label="View Other Products">→</a></div></article><article class="card category-card"><div class="category-placeholder">⌖</div><h3><a href="/product-categories/rtd-head-type">RTD – Head Type</a></h3><p>Head-type RTD sensors from the Yog Electro Process website catalogue.</p><div class="category-meta"><span>06 SERIES</span><a href="/product-categories/rtd-head-type" aria-label="View RTD – Head Type">→</a></div></article><article class="card category-card"><div class="category-placeholder">⌖</div><h3><a href="/product-categories/rtd-transition-type">RTD – Transition Type</a></h3><p>Transition-type RTD sensors recovered from the Yog Electro Process website catalogue.</p><div class="category-meta"><span>15 SERIES</span><a href="/product-categories/rtd-transition-type" aria-label="View RTD – Transition Type">→</a></div></article><article class="card category-card"><div class="category-placeholder">⌖</div><h3><a href="/product-categories/thermocouple-head-type">Thermocouple – Head Type</a></h3><p>Head-type thermocouples and transducers recovered from the Yog Electro Process website catalogue.</p><div class="category-meta"><span>14 SERIES</span><a href="/product-categories/thermocouple-head-type" aria-label="View Thermocouple – Head Type">→</a></div></article><article class="card category-card"><img src="/product-images/thermocouple-transition/wp-78.png" alt="Thermocouple – Transition Type"><h3><a href="/product-categories/thermocouple-transition-type">Thermocouple – Transition Type</a></h3><p>Transition-type thermocouples for surface, immersion, machinery, process, furnace, automotive and laboratory temperature measurement.</p><div class="category-meta"><span>24 SERIES</span><a href="/product-categories/thermocouple-transition-type" aria-label="View Thermocouple – Transition Type">→</a></div></article></div></div></section>
-  <section class="section"><div class="container"><div class="section-title"><div class="eyebrow">Applications</div><h2>Temperature Measurement Across Industry</h2></div><div class="grid grid-3"><article class="card"><h3><a href="/applications/temperature-sensors-for-steel-plants">Temperature Sensors for Steel Plants</a></h3><p>A practical guide to matching sensor construction with furnace zones, molten-metal processes, rolling lines and plant utilities.</p></article><article class="card"><h3><a href="/applications/thermocouple-for-blast-furnace">Thermocouple for Blast Furnace</a></h3><p>Sensor selection for shell, refractory, hot-blast, gas and auxiliary measurement points in ironmaking operations.</p></article><article class="card"><h3><a href="/applications/injection-molding-machine-thermocouple">Injection Molding Machine Thermocouple</a></h3><p>Fast, repeatable temperature measurement for barrel zones, nozzles, heater bands, molds and hot-runner systems.</p></article><article class="card"><h3><a href="/applications/boiler-temperature-measurement">Boiler Temperature Measurement</a></h3><p>A zone-by-zone approach to measuring furnace gas, flue gas, steam, feedwater and rotating equipment temperatures.</p></article><article class="card"><h3><a href="/applications/thermocouple-for-engine-testing">Thermocouple for Engine Testing</a></h3><p>Responsive temperature measurement for exhaust, intake, coolant, oil and component-development test points.</p></article><article class="card"><h3><a href="/applications/thermocouple-for-forging-industry">Thermocouple for Forging Industry</a></h3><p>Temperature measurement for billet heating, furnace zones, die heating and downstream heat-treatment operations.</p></article></div></div></section>
-  <section class="section section-soft"><div class="container grid grid-2"><div><div class="eyebrow">Quality & Calibration</div><h2>NABL Accredited Laboratory</h2><p>Our in-house laboratory supports thermal calibration across the published scope from -20°C to +1200°C.</p><a class="btn" href="/quality">View Quality &amp; Laboratory</a></div><img src="/assets/media/nabl-scope.jpg" alt="Current NABL scope of accreditation"></div></section></main>
-<footer class="site-footer">
-  <div class="container">
-    <div class="footer-grid">
-      <div class="footer-brand"><h2>YOG ELECTRO</h2><div class="footer-kicker">PROCESS PVT LTD</div><p>Industrial temperature measurement and calibration solutions since 1986. Decades of engineering excellence.</p></div>
-      <div><h3>Products</h3><p><a href="/products">All Products</a></p><p><a href="/product-categories/thermocouple-head-type">Thermocouple – Head Type</a></p><p><a href="/product-categories/rtd-head-type">RTD – Head Type</a></p><p><a href="/product-categories/temperature-instruments">Temperature Instruments</a></p></div>
-      <div><h3>Applications</h3><p><a href="/applications/temperature-sensors-for-steel-plants">Steel Plants</a></p><p><a href="/applications/temperature-sensors-for-power-plants">Power Plants</a></p><p><a href="/applications/temperature-sensors-for-chemical-process-plants">Chemical Plants</a></p><p><a href="/applications/temperature-sensors-for-oil-gas">Oil &amp; Gas</a></p></div>
-      <div><h3>Company</h3><p><a href="/about">About Us</a></p><p><a href="/quality">Quality &amp; Lab</a></p><p><a href="/contact">Contact</a></p><p><a href="/resources">Resources</a></p></div>
-      <div><h3>Contact</h3><p>G-63/8, Phase III,<br>MIDC-Chakan, Pune 410501</p><p><a href="tel:+919371015550">+91 9371015550</a></p><p><a href="mailto:info@yogelectroprocess.com">info@yogelectroprocess.com</a></p></div>
+    
+    <div class="border-t border-white/10 mt-12 pt-8 text-xs text-secondary-foreground/60">
+      <div class="flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-[11px] uppercase tracking-wider">
+        <span class="text-primary">Certifications &amp; Accreditation</span>
+        <span class="hidden h-1 w-1 rounded-full bg-white/30 sm:block" aria-hidden="true"></span>
+        <span>ISO/IEC 17025:2017 Accredited</span>
+        <span class="hidden h-1 w-1 rounded-full bg-white/30 sm:block" aria-hidden="true"></span>
+        <span>ISO 9001:2015 Certified</span>
+      </div>
+      <div class="mt-5 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-5 md:flex-row">
+        <p>© 2026 Yog Electro Process Pvt. Ltd. All rights reserved. <span class="mx-2 hidden text-white/30 sm:inline" aria-hidden="true">·</span> <span class="block text-center sm:inline">Designed by Vikrant Adams</span></p>
+        <nav aria-label="Legal" class="flex items-center gap-4">
+          <a href="/privacy-policy" class="transition-colors hover:text-primary">Privacy Policy</a>
+          <span class="h-1 w-1 rounded-full bg-white/30" aria-hidden="true"></span>
+          <a href="/terms" class="transition-colors hover:text-primary">Terms And Conditions</a>
+        </nav>
+      </div>
     </div>
-    <div class="footer-certifications"><span>Certifications &amp; Accreditation</span><span>ISO/IEC 17025:2017 Accredited</span><span>ISO 9001:2015 Certified</span></div>
-    <div class="footer-bottom"><span>© 2026 Yog Electro Process Pvt. Ltd. All rights reserved. · Designed by Vikrant Adams</span><span><a href="/privacy-policy">Privacy Policy</a> · <a href="/terms">Terms And Conditions</a></span></div>
   </div>
 </footer>
-<div class="search-panel" data-search-panel aria-hidden="true">
-  <section class="search-dialog" role="dialog" aria-modal="true" aria-labelledby="search-title">
-    <div class="search-bar"><input data-search-input type="search" placeholder="Search products, applications and resources…" aria-label="Search"><button class="btn btn-outline" data-search-close type="button">Close</button></div>
-    <h2 id="search-title" style="margin-top:24px">Search Results</h2>
-    <div class="search-results" data-search-results><p class="muted">Enter at least two characters.</p></div>
-  </section>
+<div class="fixed inset-0 z-[100] bg-background/80 backdrop-blur-sm hidden search-panel p-4 pt-[10vh]" data-search-panel aria-hidden="true">
+  <div class="mx-auto max-w-2xl w-full bg-background border border-border shadow-lg rounded-xl overflow-hidden flex flex-col max-h-[80vh]">
+    <div class="p-4 border-b border-border flex items-center gap-3">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 text-muted-foreground"><path d="m21 21-4.34-4.34"></path><circle cx="11" cy="11" r="8"></circle></svg>
+      <input data-search-input type="search" placeholder="Search products, applications and resources..." aria-label="Search" class="flex-1 bg-transparent border-0 outline-none text-foreground text-lg placeholder:text-muted-foreground">
+      <button class="p-2 hover:bg-muted rounded-md text-muted-foreground" data-search-close type="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg></button>
+    </div>
+    <div class="p-4 overflow-y-auto flex-1 search-results space-y-2" data-search-results>
+      <p class="text-muted-foreground text-center py-8">Enter at least two characters.</p>
+    </div>
+  </div>
 </div>
 <script src="/assets/cpanel/site.js" defer></script>
 </body>

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en-IN">
+<html lang="en-IN" class="light">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,54 +20,270 @@
   <meta name="twitter:image" content="https://yogelectroprocess.in/application-images/temperature-sensors-for-hvac-refrigeration.png">
   <link rel="icon" href="/favicon.svg">
   <link rel="stylesheet" href="/assets/cpanel/styles.css">
+  <link rel="stylesheet" href="/assets/cpanel/master.css">
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://yogelectroprocess.in/#organization","name":"Yog Electro Process Pvt. Ltd.","url":"https://yogelectroprocess.in","logo":"https://yogelectroprocess.in/assets/media/logo.png","foundingDate":"1986","email":"info@yogelectroprocess.com","telephone":"+91-9371015550","address":{"@type":"PostalAddress","streetAddress":"G-63/8, Phase III, MIDC-Chakan","addressLocality":"Pune","postalCode":"410501","addressRegion":"Maharashtra","addressCountry":"IN"}},{"@type":"WebSite","@id":"https://yogelectroprocess.in/#website","url":"https://yogelectroprocess.in","name":"Yog Electro Process","publisher":{"@id":"https://yogelectroprocess.in/#organization"},"inLanguage":"en-IN"},{"@type":"Article","headline":"Temperature Sensors for HVAC & Refrigeration | Yog Electro Process","description":"Select precise temperature sensors for HVAC, chillers, and refrigeration. Compare duct sensors, pipe-surface RTDs, and immersion probes for building management.","image":"https://yogelectroprocess.in/application-images/temperature-sensors-for-hvac-refrigeration.png","author":{"@id":"https://yogelectroprocess.in/#organization"},"publisher":{"@id":"https://yogelectroprocess.in/#organization"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://yogelectroprocess.in/applications/temperature-sensors-for-hvac-refrigeration"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://yogelectroprocess.in/"},{"@type":"ListItem","position":2,"name":"Applications","item":"https://yogelectroprocess.in/applications"},{"@type":"ListItem","position":3,"name":"Temperature Sensors for HVAC & Refrigeration","item":"https://yogelectroprocess.in/applications/temperature-sensors-for-hvac-refrigeration"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Should I use a Pt100, Pt1000, or a Thermistor for my BMS?","acceptedAnswer":{"@type":"Answer","text":"It depends entirely on your controller's input requirements. Pt100 and Pt1000 are industry-standard RTDs offering excellent linearity. Thermistors provide a very high resistance change per degree (high sensitivity) but are less linear over wide ranges."}},{"@type":"Question","name":"Is a strap-on sensor as accurate as an immersion sensor?","acceptedAnswer":{"@type":"Answer","text":"No, an immersion sensor in a thermowell is always more accurate because it contacts the fluid directly. A strap-on sensor is a compromise; it is less accurate and has a slower response time, but it allows installation without shutting down or draining the pipe."}},{"@type":"Question","name":"Why did my cold-room sensor fail after a few months?","acceptedAnswer":{"@type":"Answer","text":"The most common cause of premature failure in refrigeration is moisture ingress. Condensation forms during defrost cycles, enters the sensor housing, and destroys the delicate element. A fully encapsulated, IP67-rated sensor is required."}},{"@type":"Question","name":"Where is the best place to install a duct sensor?","acceptedAnswer":{"@type":"Answer","text":"Install it in a straight section of the duct, away from heating/cooling coils, humidifiers, or sharp bends where the air might be stratified. The probe should be long enough to reach the center of the airflow."}}]}]}</script>
 </head>
-<body>
-<a class="skip-link" href="#main">Skip to content</a>
-<header class="site-header">
-  <div class="container header-row">
-    <a class="brand" href="/" aria-label="Yog Electro Process home"><img src="/assets/media/logo.png" alt="Yog Electro Process Pvt. Ltd."></a>
-    <button class="nav-toggle" data-nav-toggle aria-expanded="false" aria-label="Open navigation">☰</button>
-    <nav class="site-nav" data-nav aria-label="Main navigation">
-      <a href="/">Home</a>
-      <a href="/products">Products</a>
-      <a href="/applications" aria-current="page">Applications <span aria-hidden="true">⌄</span></a>
-      <a href="/about">About Us</a>
-      <a href="/quality">Quality &amp; Lab</a>
-      <a href="/contact">Contact</a>
+<body class="font-sans antialiased bg-background text-foreground min-h-[100dvh] flex flex-col">
+<a class="skip-link sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:p-2 focus:bg-white focus:z-50" href="#main">Skip to content</a>
+<header class="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+  <div class="container mx-auto px-4 h-16 flex items-center justify-between max-w-7xl">
+    <a class="flex items-center gap-2 group" href="/" aria-label="Yog Electro Process home">
+      <img src="/assets/media/logo.png" alt="Yog Electro Process Pvt. Ltd." class="h-11 w-[205px] object-contain object-left transition-transform group-hover:scale-[1.02] md:w-[230px]">
+    </a>
+    
+    <nav class="hidden md:flex items-center gap-8" aria-label="Main navigation">
+      <a href="/" class="text-sm font-medium transition-colors hover:text-primary relative py-1 text-foreground/80">Home</a>
+      <a href="/products" class="text-sm font-medium transition-colors hover:text-primary relative py-1 text-foreground/80">Products</a>
+      
+      <div class="relative group py-1">
+        <button class="text-sm font-medium transition-colors hover:text-primary flex items-center gap-1 text-primary">Applications <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-[14px] h-[14px]"><path d="m6 9 6 6 6-6"></path></svg></button>
+        <span class="absolute -bottom-[21px] left-0 right-0 h-[2px] bg-primary rounded-t-full"></span>
+        <div class="absolute top-full left-0 mt-2 w-72 max-h-[calc(100vh-6rem)] overflow-y-auto bg-background border border-border rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50 flex flex-col">
+          <div class="sticky top-0 border-y border-border/60 bg-muted px-4 py-1.5 text-[10px] font-bold uppercase tracking-widest text-muted-foreground first:border-t-0">Overview</div><a href="/applications" class="block px-4 py-2 text-sm transition-colors hover:bg-accent hover:text-accent-foreground text-foreground/80">View All Applications</a><div class="sticky top-0 border-y border-border/60 bg-muted px-4 py-1.5 text-[10px] font-bold uppercase tracking-widest text-muted-foreground first:border-t-0">Metals &amp; Furnaces</div><a href="/applications/temperature-sensors-for-steel-plants" class="block px-4 py-2 text-sm transition-colors hover:bg-accent hover:text-accent-foreground text-foreground/80">Steel Plants</a><a href="/applications/thermocouple-for-blast-furnace" class="block px-4 py-2 text-sm transition-colors hover:bg-accent hover:text-accent-foreground text-foreground/80">Blast Furnace</a><a href="/applications/thermocouple-for-forging-industry" class="block px-4 py-2 text-sm transition-colors hover:bg-accent hover:text-accent-foreground text-foreground/80">Forging Industry</a><a href="/applications/thermocouple-for-gas-carburizing-furnace" class="block px-4 py-2 text-sm transition-colors hover:bg-accent hover:text-accent-foreground text-foreground/80">Gas Carburizing</a><a href="/applications/thermocouple-for-rotary-hearth-furnace" class="block px-4 py-2 text-sm transition-colors hover:bg-accent hover:text-accent-foreground text-foreground/80">Rotary Hearth</a><a href="/applications/thermocouple-for-heat-treatment-furnace" class="block px-4 py-2 text-sm transition-colors hover:bg-accent hover:text-accent-foreground text-foreground/80">Heat Treatment</a><a href="/applications/temperature-sensors-for-foundries" class="block px-4 py-2 text-sm transition-colors hover:bg-accent hover:text-accent-foreground text-foreground/80">Foundries &amp; Molten Metal</a><a href="/applications/thermocouples-for-cement-kilns" class="block px-4 py-2 text-sm transition-colors hover:bg-accent hover:text-accent-foreground text-foreground/80">Cement Kilns</a><a href="/applications/thermocouples-for-aluminium-melting-furnaces" class="block px-4 py-2 text-sm transition-colors hover:bg-accent hover:text-accent-foreground text-foreground/80">Aluminium Melting</a><a href="/applications/thermocouples-for-glass-furnaces" class="block px-4 py-2 text-sm transition-colors hover:bg-accent hover:text-accent-foreground text-foreground/80">Glass Furnaces</a><div class="sticky top-0 border-y border-border/60 bg-muted px-4 py-1.5 text-[10px] font-bold uppercase tracking-widest text-muted-foreground first:border-t-0">Process &amp; Energy</div><a href="/applications/boiler-temperature-measurement" class="block px-4 py-2 text-sm transition-colors hover:bg-accent hover:text-accent-foreground text-foreground/80">Boiler Temperature</a><a href="/applications/temperature-sensors-for-power-plants" class="block px-4 py-2 text-sm transition-colors hover:bg-accent hover:text-accent-foreground text-foreground/80">Power Plants</a><a href="/applications/temperature-sensors-for-chemical-process-plants" class="block px-4 py-2 text-sm transition-colors hover:bg-accent hover:text-accent-foreground text-foreground/80">Chemical Process Plants</a><a href="/applications/temperature-sensors-for-oil-gas" class="block px-4 py-2 text-sm transition-colors hover:bg-accent hover:text-accent-foreground text-foreground/80">Oil &amp; Gas</a><a href="/applications/temperature-sensors-for-industrial-ovens-dryers" class="block px-4 py-2 text-sm transition-colors hover:bg-accent hover:text-accent-foreground text-foreground/80">Industrial Ovens &amp; Dryers</a><div class="sticky top-0 border-y border-border/60 bg-muted px-4 py-1.5 text-[10px] font-bold uppercase tracking-widest text-muted-foreground first:border-t-0">Machines &amp; Equipment</div><a href="/applications/injection-molding-machine-thermocouple" class="block px-4 py-2 text-sm transition-colors hover:bg-accent hover:text-accent-foreground text-foreground/80">Injection Molding</a><a href="/applications/thermocouple-for-engine-testing" class="block px-4 py-2 text-sm transition-colors hover:bg-accent hover:text-accent-foreground text-foreground/80">Engine Testing</a><a href="/applications/rtd-sensors-for-motors-generators-bearings" class="block px-4 py-2 text-sm transition-colors hover:bg-accent hover:text-accent-foreground text-foreground/80">Motors &amp; Bearings</a><a href="/applications/temperature-sensors-for-plastic-extrusion" class="block px-4 py-2 text-sm transition-colors hover:bg-accent hover:text-accent-foreground text-foreground/80">Plastic Extrusion</a><a href="/applications/temperature-sensors-for-hvac-refrigeration" class="block px-4 py-2 text-sm transition-colors hover:bg-accent hover:text-accent-foreground bg-accent/50 text-primary font-medium">HVAC &amp; Refrigeration</a><a href="/applications/sanitary-temperature-sensors-food-pharma" class="block px-4 py-2 text-sm transition-colors hover:bg-accent hover:text-accent-foreground text-foreground/80">Food &amp; Pharma</a>
+        </div>
+      </div>
+      
+      <a href="/about" class="text-sm font-medium transition-colors hover:text-primary relative py-1 text-foreground/80">About Us</a>
+      <a href="/quality" class="text-sm font-medium transition-colors hover:text-primary relative py-1 text-foreground/80">Quality &amp; Lab</a>
+      <a href="/contact" class="text-sm font-medium transition-colors hover:text-primary relative py-1 text-foreground/80">Contact</a>
+      
+      <a class="ml-4 bg-secondary text-secondary-foreground px-4 py-2 rounded-sm text-sm font-medium hover:bg-secondary/90 transition-colors" href="/contact">Enquire Now</a>
     </nav>
-    <div class="header-actions">
-      <a class="btn btn-secondary" href="/contact">Enquire Now</a>
-    </div>
+    
+    <button class="md:hidden p-2 -mr-2 text-foreground" data-nav-toggle aria-expanded="false" aria-label="Toggle Menu">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 nav-icon-open"><path d="M4 5h16"></path><path d="M4 12h16"></path><path d="M4 19h16"></path></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 nav-icon-close hidden"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg>
+    </button>
+  </div>
+  
+  <div class="md:hidden border-b border-border bg-background absolute top-16 left-0 right-0 shadow-lg hidden h-[calc(100dvh-4rem)] overflow-y-auto" data-nav>
+    <nav class="flex flex-col p-4 gap-2 pb-12">
+      <a href="/" class="px-4 py-3 rounded-md text-sm font-medium transition-colors flex items-center justify-between text-foreground/80 hover:bg-accent">Home <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 opacity-50"><path d="m9 18 6-6-6-6"></path></svg></a>
+      <a href="/products" class="px-4 py-3 rounded-md text-sm font-medium transition-colors flex items-center justify-between text-foreground/80 hover:bg-accent">Products <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 opacity-50"><path d="m9 18 6-6-6-6"></path></svg></a>
+      <div class="flex flex-col gap-1">
+        <div class="px-4 py-2 text-sm font-semibold text-foreground/50 uppercase tracking-wider">Applications</div>
+        <div class="flex flex-col pl-2 border-l-2 border-border/50 ml-4 gap-1">
+          <div class="px-4 pb-1 pt-3 text-[10px] font-bold uppercase tracking-widest text-muted-foreground">Overview</div><a href="/applications" class="flex items-center justify-between rounded-md px-4 py-2 text-sm font-medium transition-colors text-foreground/80 hover:bg-accent">View All Applications</a><div class="px-4 pb-1 pt-3 text-[10px] font-bold uppercase tracking-widest text-muted-foreground">Metals &amp; Furnaces</div><a href="/applications/temperature-sensors-for-steel-plants" class="flex items-center justify-between rounded-md px-4 py-2 text-sm font-medium transition-colors text-foreground/80 hover:bg-accent">Steel Plants</a><a href="/applications/thermocouple-for-blast-furnace" class="flex items-center justify-between rounded-md px-4 py-2 text-sm font-medium transition-colors text-foreground/80 hover:bg-accent">Blast Furnace</a><a href="/applications/thermocouple-for-forging-industry" class="flex items-center justify-between rounded-md px-4 py-2 text-sm font-medium transition-colors text-foreground/80 hover:bg-accent">Forging Industry</a><a href="/applications/thermocouple-for-gas-carburizing-furnace" class="flex items-center justify-between rounded-md px-4 py-2 text-sm font-medium transition-colors text-foreground/80 hover:bg-accent">Gas Carburizing</a><a href="/applications/thermocouple-for-rotary-hearth-furnace" class="flex items-center justify-between rounded-md px-4 py-2 text-sm font-medium transition-colors text-foreground/80 hover:bg-accent">Rotary Hearth</a><a href="/applications/thermocouple-for-heat-treatment-furnace" class="flex items-center justify-between rounded-md px-4 py-2 text-sm font-medium transition-colors text-foreground/80 hover:bg-accent">Heat Treatment</a><a href="/applications/temperature-sensors-for-foundries" class="flex items-center justify-between rounded-md px-4 py-2 text-sm font-medium transition-colors text-foreground/80 hover:bg-accent">Foundries &amp; Molten Metal</a><a href="/applications/thermocouples-for-cement-kilns" class="flex items-center justify-between rounded-md px-4 py-2 text-sm font-medium transition-colors text-foreground/80 hover:bg-accent">Cement Kilns</a><a href="/applications/thermocouples-for-aluminium-melting-furnaces" class="flex items-center justify-between rounded-md px-4 py-2 text-sm font-medium transition-colors text-foreground/80 hover:bg-accent">Aluminium Melting</a><a href="/applications/thermocouples-for-glass-furnaces" class="flex items-center justify-between rounded-md px-4 py-2 text-sm font-medium transition-colors text-foreground/80 hover:bg-accent">Glass Furnaces</a><div class="px-4 pb-1 pt-3 text-[10px] font-bold uppercase tracking-widest text-muted-foreground">Process &amp; Energy</div><a href="/applications/boiler-temperature-measurement" class="flex items-center justify-between rounded-md px-4 py-2 text-sm font-medium transition-colors text-foreground/80 hover:bg-accent">Boiler Temperature</a><a href="/applications/temperature-sensors-for-power-plants" class="flex items-center justify-between rounded-md px-4 py-2 text-sm font-medium transition-colors text-foreground/80 hover:bg-accent">Power Plants</a><a href="/applications/temperature-sensors-for-chemical-process-plants" class="flex items-center justify-between rounded-md px-4 py-2 text-sm font-medium transition-colors text-foreground/80 hover:bg-accent">Chemical Process Plants</a><a href="/applications/temperature-sensors-for-oil-gas" class="flex items-center justify-between rounded-md px-4 py-2 text-sm font-medium transition-colors text-foreground/80 hover:bg-accent">Oil &amp; Gas</a><a href="/applications/temperature-sensors-for-industrial-ovens-dryers" class="flex items-center justify-between rounded-md px-4 py-2 text-sm font-medium transition-colors text-foreground/80 hover:bg-accent">Industrial Ovens &amp; Dryers</a><div class="px-4 pb-1 pt-3 text-[10px] font-bold uppercase tracking-widest text-muted-foreground">Machines &amp; Equipment</div><a href="/applications/injection-molding-machine-thermocouple" class="flex items-center justify-between rounded-md px-4 py-2 text-sm font-medium transition-colors text-foreground/80 hover:bg-accent">Injection Molding</a><a href="/applications/thermocouple-for-engine-testing" class="flex items-center justify-between rounded-md px-4 py-2 text-sm font-medium transition-colors text-foreground/80 hover:bg-accent">Engine Testing</a><a href="/applications/rtd-sensors-for-motors-generators-bearings" class="flex items-center justify-between rounded-md px-4 py-2 text-sm font-medium transition-colors text-foreground/80 hover:bg-accent">Motors &amp; Bearings</a><a href="/applications/temperature-sensors-for-plastic-extrusion" class="flex items-center justify-between rounded-md px-4 py-2 text-sm font-medium transition-colors text-foreground/80 hover:bg-accent">Plastic Extrusion</a><a href="/applications/temperature-sensors-for-hvac-refrigeration" class="flex items-center justify-between rounded-md px-4 py-2 text-sm font-medium transition-colors bg-primary/10 text-primary">HVAC &amp; Refrigeration</a><a href="/applications/sanitary-temperature-sensors-food-pharma" class="flex items-center justify-between rounded-md px-4 py-2 text-sm font-medium transition-colors text-foreground/80 hover:bg-accent">Food &amp; Pharma</a>
+        </div>
+      </div>
+      <a href="/about" class="px-4 py-3 rounded-md text-sm font-medium transition-colors flex items-center justify-between text-foreground/80 hover:bg-accent">About Us <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 opacity-50"><path d="m9 18 6-6-6-6"></path></svg></a>
+      <a href="/quality" class="px-4 py-3 rounded-md text-sm font-medium transition-colors flex items-center justify-between text-foreground/80 hover:bg-accent">Quality &amp; Lab <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 opacity-50"><path d="m9 18 6-6-6-6"></path></svg></a>
+      <a href="/contact" class="px-4 py-3 rounded-md text-sm font-medium transition-colors flex items-center justify-between text-foreground/80 hover:bg-accent">Contact <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 opacity-50"><path d="m9 18 6-6-6-6"></path></svg></a>
+    </nav>
   </div>
 </header>
-<main id="main"><nav class="breadcrumbs" aria-label="Breadcrumb"><div class="container"><ol><li><a href="/">Home</a></li><li><a href="/applications">Applications</a></li><li><span aria-current="page">Temperature Sensors for HVAC &amp; Refrigeration</span></li></ol></div></nav><section class="page-hero"><div class="container"><div class="eyebrow">Application Guide</div><h1>Temperature Sensors for HVAC &amp; Refrigeration</h1><p>Accurate, stable instrumentation for building management systems, industrial chillers, and cold storage facilities.</p></div></section>
-  <section class="section"><div class="container content-layout">
-    <article class="prose">
-      <section id="introduction" class="application-section"><h2>Introduction</h2><p>Heating, Ventilation, Air Conditioning (HVAC), and refrigeration systems rely on a vast network of temperature sensors to maintain environmental comfort, protect sensitive perishable goods, and optimize massive energy loads.</p><p>While the temperature extremes in this sector are generally moderate compared to heavy industry, the demands for long-term stability, rapid response to ambient changes, and seamless integration into Building Management Systems (BMS) are paramount.</p></section><section id="process-context" class="application-section"><h2>Process Context</h2><p>The application dictates the sensor design. Duct sensors monitor the temperature of moving air in supply and return plenums. Immersion sensors monitor chilled or heated water circulating through hydronic loops. Pipe-surface sensors are strapped externally to refrigeration lines to monitor superheat or subcooling.</p><p>In industrial refrigeration and cold storage, sensors must operate reliably at sub-zero temperatures, resisting the ingress of condensation and ice formation, which can quickly short out improperly sealed electronics.</p></section><section id="selection-guidance" class="application-section"><h2>Selection Guidance</h2><p>Because the operating temperatures rarely exceed 150°C (and frequently drop below freezing), Platinum RTDs (Pt100 or Pt1000) and precision NTC thermistors are the overwhelming choice. They offer superior accuracy, linearity, and stability compared to thermocouples in this narrow temperature band.</p><p>For duct applications, specialized probes with perforated sheaths or extended lengths are used to measure the average air temperature, avoiding false readings from stratified airflow. For chilled water lines, direct immersion in a thermowell provides the most accurate reading, though well-insulated pipe-surface sensors offer a non-intrusive alternative.</p><figure class="application-image"><img src="/application-images/temperature-sensors-for-hvac-refrigeration.png" alt="Temperature Sensors for HVAC &amp; Refrigeration infographic"><figcaption>Technical application overview for Temperature Sensors for HVAC &amp; Refrigeration</figcaption></figure></section><section id="recommended-sensors" class="application-section"><h2>Recommended Sensors</h2><div class="card"><h3>Duct and Air Temperature Probes</h3><p>Extended-length RTDs designed for insertion into ventilation ductwork, often featuring mounting flanges for easy installation and adjustable depth.</p></div><div class="card"><h3>Hydronic Immersion Sensors</h3><p>Compact RTDs housed in brass or stainless steel thermowells, designed for direct measurement of chilled or hot water loops.</p></div><div class="card"><h3>Pipe-Surface / Strap-on Sensors</h3><p>Sensors equipped with curved copper or aluminum contact pads, designed to strap directly to the outside of refrigerant lines for non-intrusive measurement.</p></div></section><section id="installation" class="application-section"><h2>Installation</h2><ul class="feature-list"><li>When installing strap-on pipe sensors, the contact area must be clean and coated with thermal paste. Crucially, the sensor and the pipe must be heavily wrapped in insulation after installation to ensure the sensor measures the fluid temperature, not the ambient air of the mechanical room.</li><li>For cold storage and refrigeration applications, connection boxes and cable entries must be completely sealed. The cycling of temperatures around the freezing point causes condensation; if moisture penetrates the sensor housing and freezes, it will mechanically destroy the RTD element.</li></ul></section><section id="benefits" class="application-section"><h2>Key Benefits</h2><ul class="feature-list"><li>Dramatically reduces building energy consumption by providing accurate feedback to variable frequency drives (VFDs) and chillers.</li><li>Prevents product spoilage in cold storage by ensuring tight, reliable adherence to setpoint temperatures.</li><li>Optimizes compressor efficiency by allowing precise calculation of refrigerant superheat and subcooling.</li><li>Lowers maintenance costs through the use of highly stable RTDs that do not require frequent recalibration.</li></ul></section>
-      <section id="specifications" class="application-section"><h2>Specifications</h2><table class="spec-table"><thead><tr><th>Parameter</th><th>Typical Specification</th></tr></thead><tbody><tr><th>Sensing Element</th><td>Pt100, Pt1000, or standard NTC Thermistors (e.g., 10k Type II)</td></tr><tr><th>Refrigeration Range</th><td>-50°C to +50°C (Requires moisture-sealed construction)</td></tr><tr><th>HVAC / Hydronic Range</th><td>0°C to 120°C</td></tr><tr><th>Duct Probe Construction</th><td>Stainless steel or rigid plastic, 100mm to 400mm typical length</td></tr><tr><th>Enclosure Rating</th><td>IP65 or IP67 to protect against condensation and washdowns</td></tr></tbody></table></section><section id="faqs" class="application-section"><h2>Frequently Asked Questions</h2><details class="card"><summary><strong>Should I use a Pt100, Pt1000, or a Thermistor for my BMS?</strong></summary><p>It depends entirely on your controller&#39;s input requirements. Pt100 and Pt1000 are industry-standard RTDs offering excellent linearity. Thermistors provide a very high resistance change per degree (high sensitivity) but are less linear over wide ranges.</p></details><details class="card"><summary><strong>Is a strap-on sensor as accurate as an immersion sensor?</strong></summary><p>No, an immersion sensor in a thermowell is always more accurate because it contacts the fluid directly. A strap-on sensor is a compromise; it is less accurate and has a slower response time, but it allows installation without shutting down or draining the pipe.</p></details><details class="card"><summary><strong>Why did my cold-room sensor fail after a few months?</strong></summary><p>The most common cause of premature failure in refrigeration is moisture ingress. Condensation forms during defrost cycles, enters the sensor housing, and destroys the delicate element. A fully encapsulated, IP67-rated sensor is required.</p></details><details class="card"><summary><strong>Where is the best place to install a duct sensor?</strong></summary><p>Install it in a straight section of the duct, away from heating/cooling coils, humidifiers, or sharp bends where the air might be stratified. The probe should be long enough to reach the center of the airflow.</p></details></section><section id="related-resources" class="application-section"><h2>Related Resources</h2><div class="grid grid-2"><article class="card"><h3><a href="/products">Browse temperature measurement products</a></h3><p>Compare thermocouples, RTDs, thermowells and supporting instruments.</p></article><article class="card"><h3><a href="/quality">Quality and calibration capabilities</a></h3><p>Review the laboratory and quality systems supporting sensor manufacture.</p></article><article class="card"><h3><a href="/contact">Discuss an application</a></h3><p>Share the temperature range, atmosphere and mounting details with the engineering team.</p></article></div></section><section id="references" class="application-section"><h2>References</h2><ul><li><a href="https://srdata.nist.gov/its90/main/" rel="noopener noreferrer" target="_blank">NIST ITS-90 Thermocouple Database</a></li><li><a href="https://webstore.iec.ch/en/publication/2625" rel="noopener noreferrer" target="_blank">IEC 60584-1: Thermocouple EMF specifications and tolerances</a></li></ul></section>
-    </article>
-    <aside class="sidebar"><nav class="toc"><h3>Contents</h3><a href="#introduction">Introduction</a><a href="#process-context">Process Context</a><a href="#selection-guidance">Selection Guidance</a><a href="#recommended-sensors">Recommended Sensors</a><a href="#installation">Installation</a><a href="#benefits">Key Benefits</a><a href="#specifications">Specifications</a><a href="#faqs">FAQs</a><a href="#related-resources">Related Resources</a><a href="#references">References</a></nav><div class="cta-box"><h3>Discuss Your Requirements</h3><p>Share the process, range, mounting and signal requirements.</p><a class="btn" href="/contact?product=Temperature%20Sensors%20for%20HVAC%20%26%20Refrigeration&product_url=https%3A%2F%2Fyogelectroprocess.in%2Fapplications%2Ftemperature-sensors-for-hvac-refrigeration">Enquire Now</a></div></aside>
-  </div></section></main>
-<footer class="site-footer">
-  <div class="container">
-    <div class="footer-grid">
-      <div class="footer-brand"><h2>YOG ELECTRO</h2><div class="footer-kicker">PROCESS PVT LTD</div><p>Industrial temperature measurement and calibration solutions since 1986. Decades of engineering excellence.</p></div>
-      <div><h3>Products</h3><p><a href="/products">All Products</a></p><p><a href="/product-categories/thermocouple-head-type">Thermocouple – Head Type</a></p><p><a href="/product-categories/rtd-head-type">RTD – Head Type</a></p><p><a href="/product-categories/temperature-instruments">Temperature Instruments</a></p></div>
-      <div><h3>Applications</h3><p><a href="/applications/temperature-sensors-for-steel-plants">Steel Plants</a></p><p><a href="/applications/temperature-sensors-for-power-plants">Power Plants</a></p><p><a href="/applications/temperature-sensors-for-chemical-process-plants">Chemical Plants</a></p><p><a href="/applications/temperature-sensors-for-oil-gas">Oil &amp; Gas</a></p></div>
-      <div><h3>Company</h3><p><a href="/about">About Us</a></p><p><a href="/quality">Quality &amp; Lab</a></p><p><a href="/contact">Contact</a></p><p><a href="/resources">Resources</a></p></div>
-      <div><h3>Contact</h3><p>G-63/8, Phase III,<br>MIDC-Chakan, Pune 410501</p><p><a href="tel:+919371015550">+91 9371015550</a></p><p><a href="mailto:info@yogelectroprocess.com">info@yogelectroprocess.com</a></p></div>
+<main id="main" class="flex-1 flex flex-col">
+  <div class="relative bg-secondary overflow-hidden isolate border-b border-border shadow-sm">
+    <div class="absolute inset-0 z-0">
+      <div class="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px]"></div>
+      <div class="absolute left-0 right-0 top-0 -z-10 m-auto h-[310px] w-[310px] rounded-full bg-primary opacity-20 blur-[100px]"></div>
     </div>
-    <div class="footer-certifications"><span>Certifications &amp; Accreditation</span><span>ISO/IEC 17025:2017 Accredited</span><span>ISO 9001:2015 Certified</span></div>
-    <div class="footer-bottom"><span>© 2026 Yog Electro Process Pvt. Ltd. All rights reserved. · Designed by Vikrant Adams</span><span><a href="/privacy-policy">Privacy Policy</a> · <a href="/terms">Terms And Conditions</a></span></div>
+    <div class="container relative z-10 mx-auto px-4 py-10 lg:py-14 max-w-7xl">
+      <nav aria-label="Breadcrumb" class="breadcrumbs flex flex-wrap items-center text-xs font-mono tracking-widest text-secondary-foreground/60 mb-5 uppercase gap-2">
+        <a href="/" class="hover:text-primary transition-colors">Home</a>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-3 h-3 opacity-50"><path d="m9 18 6-6-6-6"></path></svg>
+        <a href="/applications" class="hover:text-primary transition-colors">Applications</a>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-3 h-3 opacity-50"><path d="m9 18 6-6-6-6"></path></svg>
+        <span class="text-primary font-semibold">Temperature Sensors for HVAC &amp; Refrigeration</span>
+      </nav>
+      <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight text-white mb-4 leading-[1.15] max-w-4xl">Temperature Sensors for HVAC &amp; Refrigeration</h1>
+      <p class="text-base md:text-lg text-secondary-foreground/80 leading-relaxed max-w-3xl font-light">Accurate, stable instrumentation for building management systems, industrial chillers, and cold storage facilities.</p>
+    </div>
+  </div>
+  
+  <div class="container mx-auto px-4 py-12 md:py-16 max-w-7xl relative flex flex-col lg:flex-row gap-12 lg:gap-16">
+    <aside class="lg:w-64 shrink-0">
+      <div class="sticky top-24">
+        <a href="/products" class="inline-flex items-center text-sm font-medium text-muted-foreground hover:text-primary transition-colors mb-8 group bg-muted/50 px-4 py-2 rounded-full border border-border w-full justify-center lg:justify-start">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2 w-4 h-4 transition-transform group-hover:-translate-x-1"><path d="m12 19-7-7 7-7"></path><path d="M19 12H5"></path></svg> Browse Products
+        </a>
+        <div class="hidden lg:block bg-muted/30 border border-border rounded-xl p-5 shadow-sm">
+          <h4 class="text-sm font-bold text-foreground mb-4 uppercase tracking-wider">Contents</h4>
+          <nav class="flex flex-col gap-2.5">
+            <a href="#introduction" class="text-left text-sm text-muted-foreground hover:text-primary transition-colors hover:translate-x-1 duration-200">Introduction</a><a href="#process-context" class="text-left text-sm text-muted-foreground hover:text-primary transition-colors hover:translate-x-1 duration-200">Process Context</a><a href="#selection-guidance" class="text-left text-sm text-muted-foreground hover:text-primary transition-colors hover:translate-x-1 duration-200">Selection Guidance</a><a href="#recommended-sensors" class="text-left text-sm text-muted-foreground hover:text-primary transition-colors hover:translate-x-1 duration-200">Recommended Sensors</a><a href="#installation" class="text-left text-sm text-muted-foreground hover:text-primary transition-colors hover:translate-x-1 duration-200">Installation Considerations</a><a href="#benefits" class="text-left text-sm text-muted-foreground hover:text-primary transition-colors hover:translate-x-1 duration-200">Key Benefits</a><a href="#specifications" class="text-left text-sm text-muted-foreground hover:text-primary transition-colors hover:translate-x-1 duration-200">Specifications</a><a href="#faqs" class="text-left text-sm text-muted-foreground hover:text-primary transition-colors hover:translate-x-1 duration-200">FAQs</a><a href="#related-resources" class="text-left text-sm text-muted-foreground hover:text-primary transition-colors hover:translate-x-1 duration-200">Related Resources</a><a href="#references" class="text-left text-sm text-muted-foreground hover:text-primary transition-colors hover:translate-x-1 duration-200">References</a>
+          </nav>
+        </div>
+      </div>
+    </aside>
+    
+    <article class="flex-1 min-w-0">
+      
+        <section id="introduction" class="mb-12 scroll-mt-24">
+          <h2 class="text-2xl md:text-3xl font-bold mb-6 text-foreground flex items-center gap-3 border-b border-border pb-4">
+            <span class="w-2.5 h-8 bg-primary rounded-sm inline-block shadow-sm shadow-primary/20"></span>
+            Introduction
+          </h2>
+          <div class="prose prose-slate max-w-none prose-p:text-lg prose-p:leading-relaxed prose-p:text-muted-foreground">
+            <p>Heating, Ventilation, Air Conditioning (HVAC), and refrigeration systems rely on a vast network of temperature sensors to maintain environmental comfort, protect sensitive perishable goods, and optimize massive energy loads.</p><p>While the temperature extremes in this sector are generally moderate compared to heavy industry, the demands for long-term stability, rapid response to ambient changes, and seamless integration into Building Management Systems (BMS) are paramount.</p>
+          </div>
+          
+        </section>
+        <section id="process-context" class="mb-12 scroll-mt-24">
+          <h2 class="text-2xl md:text-3xl font-bold mb-6 text-foreground flex items-center gap-3 border-b border-border pb-4">
+            <span class="w-2.5 h-8 bg-primary rounded-sm inline-block shadow-sm shadow-primary/20"></span>
+            Process Context
+          </h2>
+          <div class="prose prose-slate max-w-none prose-p:text-lg prose-p:leading-relaxed prose-p:text-muted-foreground">
+            <p>The application dictates the sensor design. Duct sensors monitor the temperature of moving air in supply and return plenums. Immersion sensors monitor chilled or heated water circulating through hydronic loops. Pipe-surface sensors are strapped externally to refrigeration lines to monitor superheat or subcooling.</p><p>In industrial refrigeration and cold storage, sensors must operate reliably at sub-zero temperatures, resisting the ingress of condensation and ice formation, which can quickly short out improperly sealed electronics.</p>
+          </div>
+          
+        </section>
+        <section id="selection-guidance" class="mb-12 scroll-mt-24">
+          <h2 class="text-2xl md:text-3xl font-bold mb-6 text-foreground flex items-center gap-3 border-b border-border pb-4">
+            <span class="w-2.5 h-8 bg-primary rounded-sm inline-block shadow-sm shadow-primary/20"></span>
+            Selection Guidance
+          </h2>
+          <div class="prose prose-slate max-w-none prose-p:text-lg prose-p:leading-relaxed prose-p:text-muted-foreground">
+            <p>Because the operating temperatures rarely exceed 150°C (and frequently drop below freezing), Platinum RTDs (Pt100 or Pt1000) and precision NTC thermistors are the overwhelming choice. They offer superior accuracy, linearity, and stability compared to thermocouples in this narrow temperature band.</p><p>For duct applications, specialized probes with perforated sheaths or extended lengths are used to measure the average air temperature, avoiding false readings from stratified airflow. For chilled water lines, direct immersion in a thermowell provides the most accurate reading, though well-insulated pipe-surface sensors offer a non-intrusive alternative.</p>
+          </div>
+          
+            <figure class="overflow-hidden rounded-xl border border-border bg-white shadow-md mt-14">
+              <img src="/application-images/temperature-sensors-for-hvac-refrigeration.png" alt="Temperature Sensors for HVAC &amp; Refrigeration infographic" class="w-full object-contain max-h-[800px] p-4">
+              <figcaption class="border-t border-border bg-muted/40 px-5 py-3 text-sm text-muted-foreground text-center">Technical application overview for Temperature Sensors for HVAC &amp; Refrigeration</figcaption>
+            </figure>
+        </section>
+        <section id="recommended-sensors" class="mb-12 scroll-mt-24">
+          <h2 class="text-2xl md:text-3xl font-bold mb-6 text-foreground flex items-center gap-3 border-b border-border pb-4">
+            <span class="w-2.5 h-8 bg-primary rounded-sm inline-block shadow-sm shadow-primary/20"></span>
+            Recommended Sensors
+          </h2>
+          <div class="prose prose-slate max-w-none prose-p:text-lg prose-p:leading-relaxed prose-p:text-muted-foreground">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"><div class="bg-muted/30 border border-border rounded-xl p-6 hover:shadow-md transition-shadow"><h3 class="font-bold text-lg text-foreground mb-3">Duct and Air Temperature Probes</h3><p class="text-muted-foreground text-sm leading-relaxed">Extended-length RTDs designed for insertion into ventilation ductwork, often featuring mounting flanges for easy installation and adjustable depth.</p></div><div class="bg-muted/30 border border-border rounded-xl p-6 hover:shadow-md transition-shadow"><h3 class="font-bold text-lg text-foreground mb-3">Hydronic Immersion Sensors</h3><p class="text-muted-foreground text-sm leading-relaxed">Compact RTDs housed in brass or stainless steel thermowells, designed for direct measurement of chilled or hot water loops.</p></div><div class="bg-muted/30 border border-border rounded-xl p-6 hover:shadow-md transition-shadow"><h3 class="font-bold text-lg text-foreground mb-3">Pipe-Surface / Strap-on Sensors</h3><p class="text-muted-foreground text-sm leading-relaxed">Sensors equipped with curved copper or aluminum contact pads, designed to strap directly to the outside of refrigerant lines for non-intrusive measurement.</p></div></div>
+          </div>
+          
+        </section>
+        <section id="installation" class="mb-12 scroll-mt-24">
+          <h2 class="text-2xl md:text-3xl font-bold mb-6 text-foreground flex items-center gap-3 border-b border-border pb-4">
+            <span class="w-2.5 h-8 bg-primary rounded-sm inline-block shadow-sm shadow-primary/20"></span>
+            Installation Considerations
+          </h2>
+          <div class="prose prose-slate max-w-none prose-p:text-lg prose-p:leading-relaxed prose-p:text-muted-foreground">
+            <p>When installing strap-on pipe sensors, the contact area must be clean and coated with thermal paste. Crucially, the sensor and the pipe must be heavily wrapped in insulation after installation to ensure the sensor measures the fluid temperature, not the ambient air of the mechanical room.</p><p>For cold storage and refrigeration applications, connection boxes and cable entries must be completely sealed. The cycling of temperatures around the freezing point causes condensation; if moisture penetrates the sensor housing and freezes, it will mechanically destroy the RTD element.</p>
+          </div>
+          
+        </section>
+        <section id="benefits" class="mb-12 scroll-mt-24">
+          <h2 class="text-2xl md:text-3xl font-bold mb-6 text-foreground flex items-center gap-3 border-b border-border pb-4">
+            <span class="w-2.5 h-8 bg-primary rounded-sm inline-block shadow-sm shadow-primary/20"></span>
+            Key Benefits
+          </h2>
+          <div class="prose prose-slate max-w-none prose-p:text-lg prose-p:leading-relaxed prose-p:text-muted-foreground">
+            <ul class="grid grid-cols-1 md:grid-cols-2 gap-4"><li class="flex items-start gap-3 bg-muted/20 p-4 rounded-lg border border-border/50"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-primary shrink-0 mt-0.5"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg>
+<span class="text-muted-foreground">Dramatically reduces building energy consumption by providing accurate feedback to variable frequency drives (VFDs) and chillers.</span></li><li class="flex items-start gap-3 bg-muted/20 p-4 rounded-lg border border-border/50"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-primary shrink-0 mt-0.5"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg>
+<span class="text-muted-foreground">Prevents product spoilage in cold storage by ensuring tight, reliable adherence to setpoint temperatures.</span></li><li class="flex items-start gap-3 bg-muted/20 p-4 rounded-lg border border-border/50"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-primary shrink-0 mt-0.5"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg>
+<span class="text-muted-foreground">Optimizes compressor efficiency by allowing precise calculation of refrigerant superheat and subcooling.</span></li><li class="flex items-start gap-3 bg-muted/20 p-4 rounded-lg border border-border/50"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-primary shrink-0 mt-0.5"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg>
+<span class="text-muted-foreground">Lowers maintenance costs through the use of highly stable RTDs that do not require frequent recalibration.</span></li></ul>
+          </div>
+          
+        </section>
+      <section id="specifications" class="mb-12 scroll-mt-24"><h2 class="text-2xl md:text-3xl font-bold mb-6 text-foreground flex items-center gap-3 border-b border-border pb-4"><span class="w-2.5 h-8 bg-primary rounded-sm inline-block shadow-sm shadow-primary/20"></span>Specifications</h2><div class="overflow-x-auto rounded-xl border border-border shadow-sm"><table class="w-full text-left border-collapse"><thead class="bg-secondary/95 text-secondary-foreground"><tr><th class="px-6 py-4 font-semibold text-sm uppercase tracking-wider border-b border-border/20">Parameter</th><th class="px-6 py-4 font-semibold text-sm uppercase tracking-wider border-b border-border/20">Typical Specification</th></tr></thead><tbody class="divide-y divide-border bg-background"><tr class="hover:bg-muted/40 transition-colors"><td class="px-6 py-4 font-medium text-foreground w-1/3">Sensing Element</td><td class="px-6 py-4 text-muted-foreground">Pt100, Pt1000, or standard NTC Thermistors (e.g., 10k Type II)</td></tr><tr class="hover:bg-muted/40 transition-colors"><td class="px-6 py-4 font-medium text-foreground w-1/3">Refrigeration Range</td><td class="px-6 py-4 text-muted-foreground">-50°C to +50°C (Requires moisture-sealed construction)</td></tr><tr class="hover:bg-muted/40 transition-colors"><td class="px-6 py-4 font-medium text-foreground w-1/3">HVAC / Hydronic Range</td><td class="px-6 py-4 text-muted-foreground">0°C to 120°C</td></tr><tr class="hover:bg-muted/40 transition-colors"><td class="px-6 py-4 font-medium text-foreground w-1/3">Duct Probe Construction</td><td class="px-6 py-4 text-muted-foreground">Stainless steel or rigid plastic, 100mm to 400mm typical length</td></tr><tr class="hover:bg-muted/40 transition-colors"><td class="px-6 py-4 font-medium text-foreground w-1/3">Enclosure Rating</td><td class="px-6 py-4 text-muted-foreground">IP65 or IP67 to protect against condensation and washdowns</td></tr></tbody></table></div></section><section id="faqs" class="mb-12 scroll-mt-24"><h2 class="text-2xl md:text-3xl font-bold mb-6 text-foreground flex items-center gap-3 border-b border-border pb-4"><span class="w-2.5 h-8 bg-primary rounded-sm inline-block shadow-sm shadow-primary/20"></span>Frequently Asked Questions</h2><div class="space-y-6"><div class="bg-background border border-border rounded-xl p-6 shadow-sm"><h3 class="text-lg font-bold text-foreground mb-3">Should I use a Pt100, Pt1000, or a Thermistor for my BMS?</h3><p class="text-muted-foreground leading-relaxed">It depends entirely on your controller&#39;s input requirements. Pt100 and Pt1000 are industry-standard RTDs offering excellent linearity. Thermistors provide a very high resistance change per degree (high sensitivity) but are less linear over wide ranges.</p></div><div class="bg-background border border-border rounded-xl p-6 shadow-sm"><h3 class="text-lg font-bold text-foreground mb-3">Is a strap-on sensor as accurate as an immersion sensor?</h3><p class="text-muted-foreground leading-relaxed">No, an immersion sensor in a thermowell is always more accurate because it contacts the fluid directly. A strap-on sensor is a compromise; it is less accurate and has a slower response time, but it allows installation without shutting down or draining the pipe.</p></div><div class="bg-background border border-border rounded-xl p-6 shadow-sm"><h3 class="text-lg font-bold text-foreground mb-3">Why did my cold-room sensor fail after a few months?</h3><p class="text-muted-foreground leading-relaxed">The most common cause of premature failure in refrigeration is moisture ingress. Condensation forms during defrost cycles, enters the sensor housing, and destroys the delicate element. A fully encapsulated, IP67-rated sensor is required.</p></div><div class="bg-background border border-border rounded-xl p-6 shadow-sm"><h3 class="text-lg font-bold text-foreground mb-3">Where is the best place to install a duct sensor?</h3><p class="text-muted-foreground leading-relaxed">Install it in a straight section of the duct, away from heating/cooling coils, humidifiers, or sharp bends where the air might be stratified. The probe should be long enough to reach the center of the airflow.</p></div></div></section><section id="related-resources" class="mb-12 scroll-mt-24"><h2 class="text-2xl md:text-3xl font-bold mb-6 text-foreground flex items-center gap-3 border-b border-border pb-4"><span class="w-2.5 h-8 bg-primary rounded-sm inline-block shadow-sm shadow-primary/20"></span>Related Resources</h2><div class="grid gap-4 md:grid-cols-3"><a href="/products" class="group rounded-xl border border-border bg-muted/20 p-5 transition-all hover:-translate-y-1 hover:border-primary/40 hover:shadow-md"><h3 class="font-bold text-foreground transition-colors group-hover:text-primary">Browse temperature measurement products</h3><p class="mt-2 text-sm leading-relaxed text-muted-foreground">Compare thermocouples, RTDs, thermowells and supporting instruments.</p></a><a href="/quality" class="group rounded-xl border border-border bg-muted/20 p-5 transition-all hover:-translate-y-1 hover:border-primary/40 hover:shadow-md"><h3 class="font-bold text-foreground transition-colors group-hover:text-primary">Quality and calibration capabilities</h3><p class="mt-2 text-sm leading-relaxed text-muted-foreground">Review the laboratory and quality systems supporting sensor manufacture.</p></a><a href="/contact" class="group rounded-xl border border-border bg-muted/20 p-5 transition-all hover:-translate-y-1 hover:border-primary/40 hover:shadow-md"><h3 class="font-bold text-foreground transition-colors group-hover:text-primary">Discuss an application</h3><p class="mt-2 text-sm leading-relaxed text-muted-foreground">Share the temperature range, atmosphere and mounting details with the engineering team.</p></a></div></section><section id="references" class="mb-12 scroll-mt-24"><h2 class="text-2xl md:text-3xl font-bold mb-6 text-foreground flex items-center gap-3 border-b border-border pb-4"><span class="w-2.5 h-8 bg-primary rounded-sm inline-block shadow-sm shadow-primary/20"></span>References</h2><ul class="space-y-3"><li><a href="https://srdata.nist.gov/its90/main/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-muted-foreground hover:text-primary font-medium transition-colors group">NIST ITS-90 Thermocouple Database<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-1 opacity-50 group-hover:opacity-100 transition-opacity"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg></a></li><li><a href="https://webstore.iec.ch/en/publication/2625" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-muted-foreground hover:text-primary font-medium transition-colors group">IEC 60584-1: Thermocouple EMF specifications and tolerances<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-1 opacity-50 group-hover:opacity-100 transition-opacity"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg></a></li></ul></section>
+      
+      <div class="mt-20 space-y-12">
+        <div class="relative overflow-hidden rounded-2xl bg-secondary p-8 md:p-12 text-center border border-primary/20 shadow-2xl">
+          <div class="absolute top-0 right-0 -mr-16 -mt-16 w-64 h-64 bg-primary/20 rounded-full blur-[80px]"></div>
+          <div class="absolute bottom-0 left-0 -ml-16 -mb-16 w-64 h-64 bg-primary/20 rounded-full blur-[80px]"></div>
+          <div class="relative z-10">
+            <h3 class="text-2xl md:text-3xl font-bold mb-4 text-white">Need an engineered solution?</h3>
+            <p class="text-secondary-foreground/80 mb-8 max-w-2xl mx-auto text-lg">Speak with our technical specialists to design a sensor assembly perfectly matched to your application requirements.</p>
+            <a href="/contact" class="inline-flex items-center justify-center h-12 px-8 font-semibold bg-primary text-primary-foreground hover:bg-primary/90 rounded-md transition-all hover:scale-105 active:scale-95 shadow-lg shadow-primary/25">Contact Engineering Team</a>
+          </div>
+        </div>
+      </div>
+    </article>
+  </div></main>
+<footer class="bg-secondary text-secondary-foreground border-t border-secondary-border">
+  <div class="container mx-auto px-4 py-12 max-w-7xl">
+    <div class="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-5">
+      <div class="md:col-span-1">
+        <a href="/" class="flex items-center gap-2 mb-4 group">
+          <div class="bg-primary text-primary-foreground p-1.5 rounded flex items-center justify-center">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6"><path d="M12 16h.01"></path><path d="M16 16h.01"></path><path d="M3 19a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V8.5a.5.5 0 0 0-.769-.422l-4.462 2.844A.5.5 0 0 1 15 10.5v-2a.5.5 0 0 0-.769-.422L9.77 10.922A.5.5 0 0 1 9 10.5V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2z"></path><path d="M8 16h.01"></path></svg>
+          </div>
+          <div class="flex flex-col">
+            <span class="font-bold text-xl leading-none tracking-tight text-white">YOG ELECTRO</span>
+            <span class="text-[10px] text-white/70 font-mono leading-none tracking-widest uppercase mt-1">PROCESS PVT LTD</span>
+          </div>
+        </a>
+        <p class="text-secondary-foreground/70 text-sm mt-4 leading-relaxed">
+          Industrial temperature measurement and calibration solutions since 1986. Decades of engineering excellence.
+        </p>
+      </div>
+      <div>
+        <h4 class="font-semibold text-white mb-4">Products</h4>
+        <ul class="space-y-2 text-sm text-secondary-foreground/80">
+          <li><a href="/products" class="hover:text-primary transition-colors">All Products</a></li>
+          <li><a href="/product-categories/thermocouple-head-type" class="hover:text-primary transition-colors">Thermocouple – Head Type</a></li>
+          <li><a href="/product-categories/rtd-head-type" class="hover:text-primary transition-colors">RTD – Head Type</a></li>
+          <li><a href="/product-categories/temperature-instruments" class="hover:text-primary transition-colors">Temperature Instruments</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-semibold text-white mb-4">Applications</h4>
+        <ul class="space-y-2 text-sm text-secondary-foreground/80">
+          <li><a href="/applications/temperature-sensors-for-steel-plants" class="hover:text-primary transition-colors">Steel Plants</a></li>
+          <li><a href="/applications/temperature-sensors-for-power-plants" class="hover:text-primary transition-colors">Power Plants</a></li>
+          <li><a href="/applications/temperature-sensors-for-chemical-process-plants" class="hover:text-primary transition-colors">Chemical Plants</a></li>
+          <li><a href="/applications/temperature-sensors-for-oil-gas" class="hover:text-primary transition-colors">Oil &amp; Gas</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-semibold text-white mb-4">Company</h4>
+        <ul class="space-y-2 text-sm text-secondary-foreground/80">
+          <li><a href="/about" class="hover:text-primary transition-colors">About Us</a></li>
+          <li><a href="/quality" class="hover:text-primary transition-colors">Quality &amp; Lab</a></li>
+          <li><a href="/contact" class="hover:text-primary transition-colors">Contact</a></li>
+          <li><a href="/resources" class="hover:text-primary transition-colors">Resources</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-semibold text-white mb-4">Contact</h4>
+        <ul class="space-y-3 text-sm text-secondary-foreground/80">
+          <li class="flex items-start gap-3">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 mt-0.5 text-primary shrink-0"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            <span>G-63/8, Phase III, MIDC-Chakan,<br>Pune 410501</span>
+          </li>
+          <li class="flex items-center gap-3">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 text-primary shrink-0"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"></path></svg>
+            <a href="tel:+919371015550" class="hover:text-primary transition-colors">+91 9371015550</a>
+          </li>
+          <li class="flex items-center gap-3">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 text-primary shrink-0"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path><rect x="2" y="4" width="20" height="16" rx="2"></rect></svg>
+            <a href="mailto:info@yogelectroprocess.com" class="hover:text-primary transition-colors">info@yogelectroprocess.com</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="border-t border-white/10 mt-12 pt-8 text-xs text-secondary-foreground/60">
+      <div class="flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-[11px] uppercase tracking-wider">
+        <span class="text-primary">Certifications &amp; Accreditation</span>
+        <span class="hidden h-1 w-1 rounded-full bg-white/30 sm:block" aria-hidden="true"></span>
+        <span>ISO/IEC 17025:2017 Accredited</span>
+        <span class="hidden h-1 w-1 rounded-full bg-white/30 sm:block" aria-hidden="true"></span>
+        <span>ISO 9001:2015 Certified</span>
+      </div>
+      <div class="mt-5 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-5 md:flex-row">
+        <p>© 2026 Yog Electro Process Pvt. Ltd. All rights reserved. <span class="mx-2 hidden text-white/30 sm:inline" aria-hidden="true">·</span> <span class="block text-center sm:inline">Designed by Vikrant Adams</span></p>
+        <nav aria-label="Legal" class="flex items-center gap-4">
+          <a href="/privacy-policy" class="transition-colors hover:text-primary">Privacy Policy</a>
+          <span class="h-1 w-1 rounded-full bg-white/30" aria-hidden="true"></span>
+          <a href="/terms" class="transition-colors hover:text-primary">Terms And Conditions</a>
+        </nav>
+      </div>
+    </div>
   </div>
 </footer>
-<div class="search-panel" data-search-panel aria-hidden="true">
-  <section class="search-dialog" role="dialog" aria-modal="true" aria-labelledby="search-title">
-    <div class="search-bar"><input data-search-input type="search" placeholder="Search products, applications and resources…" aria-label="Search"><button class="btn btn-outline" data-search-close type="button">Close</button></div>
-    <h2 id="search-title" style="margin-top:24px">Search Results</h2>
-    <div class="search-results" data-search-results><p class="muted">Enter at least two characters.</p></div>
-  </section>
+<div class="fixed inset-0 z-[100] bg-background/80 backdrop-blur-sm hidden search-panel p-4 pt-[10vh]" data-search-panel aria-hidden="true">
+  <div class="mx-auto max-w-2xl w-full bg-background border border-border shadow-lg rounded-xl overflow-hidden flex flex-col max-h-[80vh]">
+    <div class="p-4 border-b border-border flex items-center gap-3">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 text-muted-foreground"><path d="m21 21-4.34-4.34"></path><circle cx="11" cy="11" r="8"></circle></svg>
+      <input data-search-input type="search" placeholder="Search products, applications and resources..." aria-label="Search" class="flex-1 bg-transparent border-0 outline-none text-foreground text-lg placeholder:text-muted-foreground">
+      <button class="p-2 hover:bg-muted rounded-md text-muted-foreground" data-search-close type="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg></button>
+    </div>
+    <div class="p-4 overflow-y-auto flex-1 search-results space-y-2" data-search-results>
+      <p class="text-muted-foreground text-center py-8">Enter at least two characters.</p>
+    </div>
+  </div>
 </div>
 <script src="/assets/cpanel/site.js" defer></script>
 </body>

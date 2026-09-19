@@ -2,9 +2,18 @@
   const navToggle = document.querySelector("[data-nav-toggle]");
   const nav = document.querySelector("[data-nav]");
   navToggle?.addEventListener("click", () => {
-    const open = nav?.classList.toggle("open");
+    const open = Boolean(nav?.classList.contains("hidden"));
+    nav?.classList.toggle("hidden", !open);
+    navToggle.querySelector(".nav-icon-open")?.classList.toggle("hidden", open);
+    navToggle.querySelector(".nav-icon-close")?.classList.toggle("hidden", !open);
     navToggle.setAttribute("aria-expanded", String(Boolean(open)));
   });
+  nav?.querySelectorAll("a").forEach((link) => link.addEventListener("click", () => {
+    nav.classList.add("hidden");
+    navToggle?.querySelector(".nav-icon-open")?.classList.remove("hidden");
+    navToggle?.querySelector(".nav-icon-close")?.classList.add("hidden");
+    navToggle?.setAttribute("aria-expanded", "false");
+  }));
 
   const panel = document.querySelector("[data-search-panel]");
   const input = document.querySelector("[data-search-input]");
