@@ -21,6 +21,7 @@
   <link rel="icon" href="/favicon.svg">
   <link rel="stylesheet" href="/assets/cpanel/styles.css">
   <link rel="stylesheet" href="/assets/cpanel/master.css">
+  <link rel="stylesheet" href="/assets/cpanel/search.css">
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://yogelectroprocess.in/#organization","name":"Yog Electro Process Pvt. Ltd.","url":"https://yogelectroprocess.in","logo":"https://yogelectroprocess.in/assets/media/logo.png","foundingDate":"1986","email":"info@yogelectroprocess.com","telephone":"+91-9371015550","address":{"@type":"PostalAddress","streetAddress":"G-63/8, Phase III, MIDC-Chakan","addressLocality":"Pune","postalCode":"410501","addressRegion":"Maharashtra","addressCountry":"IN"}},{"@type":"WebSite","@id":"https://yogelectroprocess.in/#website","url":"https://yogelectroprocess.in","name":"Yog Electro Process","publisher":{"@id":"https://yogelectroprocess.in/#organization"},"inLanguage":"en-IN"},{"@type":"WebPage","name":"Steam Line Temperature Sensors","description":"Explore supported thermocouple, RTD and transmitter families for steam-line temperature measurement and engineered installation review.","url":"https://yogelectroprocess.in/industrial-solutions/steam-line-temperature-sensors","about":"steam line temperature sensor","audience":"Industrial engineers and procurement teams","isPartOf":"Yog Electro Process industrial solutions"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://yogelectroprocess.in/"},{"@type":"ListItem","position":2,"name":"Industrial Solutions","item":"https://yogelectroprocess.in/industrial-solutions"},{"@type":"ListItem","position":3,"name":"Steam Line Temperature Sensors","item":"https://yogelectroprocess.in/industrial-solutions/steam-line-temperature-sensors"}]}]}</script>
 </head>
 <body class="font-sans antialiased bg-background text-foreground min-h-[100dvh] flex flex-col">
@@ -47,13 +48,17 @@
       <a href="/quality" class="text-sm font-medium transition-colors hover:text-primary relative py-1 text-foreground/80">Quality &amp; Lab</a>
       <a href="/contact" class="text-sm font-medium transition-colors hover:text-primary relative py-1 text-foreground/80">Contact</a>
       
-      <a class="ml-4 bg-secondary text-secondary-foreground px-4 py-2 rounded-sm text-sm font-medium hover:bg-secondary/90 transition-colors" href="/contact">Enquire Now</a>
+      <button type="button" data-search-open aria-label="Search products and applications" aria-controls="site-search" aria-haspopup="dialog" class="p-2 text-foreground/80 hover:text-primary transition-colors focus-visible:outline-2 focus-visible:outline-primary"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5"><path d="m21 21-4.34-4.34"></path><circle cx="11" cy="11" r="8"></circle></svg></button>
+      <a class="bg-secondary text-secondary-foreground px-4 py-2 rounded-sm text-sm font-medium hover:bg-secondary/90 transition-colors" href="/contact">Enquire Now</a>
     </nav>
     
-    <button class="md:hidden p-2 -mr-2 text-foreground" data-nav-toggle aria-expanded="false" aria-label="Toggle Menu">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 nav-icon-open"><path d="M4 5h16"></path><path d="M4 12h16"></path><path d="M4 19h16"></path></svg>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 nav-icon-close hidden"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg>
-    </button>
+    <div class="md:hidden flex items-center gap-1">
+      <button type="button" data-search-open aria-label="Search products and applications" aria-controls="site-search" aria-haspopup="dialog" class="p-2 text-foreground hover:text-primary focus-visible:outline-2 focus-visible:outline-primary"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5"><path d="m21 21-4.34-4.34"></path><circle cx="11" cy="11" r="8"></circle></svg></button>
+      <button type="button" class="p-2 -mr-2 text-foreground" data-nav-toggle aria-expanded="false" aria-label="Toggle Menu">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 nav-icon-open"><path d="M4 5h16"></path><path d="M4 12h16"></path><path d="M4 19h16"></path></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 nav-icon-close hidden"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg>
+      </button>
+    </div>
   </div>
   
   <div class="md:hidden border-b border-border bg-background absolute top-16 left-0 right-0 shadow-lg hidden h-[calc(100dvh-4rem)] overflow-y-auto" data-nav>
@@ -197,18 +202,18 @@
     </div>
   </div>
 </footer>
-<div class="fixed inset-0 z-[100] bg-background/80 backdrop-blur-sm hidden search-panel p-4 pt-[10vh]" data-search-panel aria-hidden="true">
+<div id="site-search" class="fixed inset-0 z-[100] bg-background/80 backdrop-blur-sm hidden search-panel p-4 pt-[10vh]" data-search-panel role="dialog" aria-modal="true" aria-label="Search the site" aria-hidden="true">
   <div class="mx-auto max-w-2xl w-full bg-background border border-border shadow-lg rounded-xl overflow-hidden flex flex-col max-h-[80vh]">
     <div class="p-4 border-b border-border flex items-center gap-3">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 text-muted-foreground"><path d="m21 21-4.34-4.34"></path><circle cx="11" cy="11" r="8"></circle></svg>
       <input data-search-input type="search" placeholder="Search products, applications and resources..." aria-label="Search" class="flex-1 bg-transparent border-0 outline-none text-foreground text-lg placeholder:text-muted-foreground">
-      <button class="p-2 hover:bg-muted rounded-md text-muted-foreground" data-search-close type="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg></button>
+      <button class="p-2 hover:bg-muted rounded-md text-muted-foreground" data-search-close type="button" aria-label="Close search"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg></button>
     </div>
     <div class="p-4 overflow-y-auto flex-1 search-results space-y-2" data-search-results>
       <p class="text-muted-foreground text-center py-8">Enter at least two characters.</p>
     </div>
   </div>
 </div>
-<script src="/assets/cpanel/site.js" defer></script>
+<script src="/assets/cpanel/site.js?v=search-20260925" defer></script>
 </body>
 </html>
